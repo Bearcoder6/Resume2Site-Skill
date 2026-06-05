@@ -5,11 +5,11 @@
 </p>
 
 <p align="center">
-  <strong>A lightweight Agent Skill for turning resumes, projects, and papers into polished GitHub Pages personal websites.</strong>
+  <strong>Turn a resume into a polished, desktop-first personal website with Codex or another coding agent.</strong>
 </p>
 
 <p align="center">
-  <a href="#english">English</a> · <a href="#中文">中文</a>
+  <a href="#english">English</a> | <a href="#中文">中文</a>
 </p>
 
 <p align="center">
@@ -21,27 +21,37 @@
 
 ## English
 
-Resume2Site-Skill helps coding agents extract structured profile information, choose an academic or personal landing-page style, plan the website narrative, generate desktop-first GitHub Pages-ready files, and polish the final design.
+Resume2Site-Skill is a lightweight Agent Skill. It helps Codex, Claude Code, Cursor, or another coding agent convert resumes, projects, papers, avatars, GitHub links, arXiv links, and optional style preferences into a polished GitHub Pages-ready personal website.
 
-It is not a CLI, SaaS app, crawler, parser, Python package, npm package, or full website builder. It is a Skill: a compact workflow, prompt pack, design rule pack, style distillation pack, quality checklist, and GitHub Pages output convention for agents such as Codex, Claude Code, Cursor, and similar coding assistants.
+It is not a CLI, SaaS app, crawler, parser, Python package, npm package, or full website builder. The value is the workflow: fact extraction, style intake, design rules, privacy rules, asset rules, link preservation, and final quality review.
 
-### Why Use It
+### Easiest Way
 
-- Turns a raw resume into a structured `work/profile.json` before any page is generated.
-- Supports two clear modes: Academic Homepage and Personal Landing Page.
-- Prompts new users to choose from built-in style variants before generation, with a recommended default.
-- Targets polished PC / desktop personal homepages by default.
-- Guides factual writing without invented publications, metrics, titles, or awards.
-- Encourages polished visual design instead of resume-to-HTML dumping.
-- Provides built-in academic and landing style rules before release, so users do not need to distill style themselves.
-- Provides asset search, license-checking, and credit rules for open or free visual sources.
-- Keeps public output privacy-aware and GitHub Pages ready.
+Give this repository link to Codex and paste a prompt like this:
 
-### Install
+```text
+Please install and use this Skill:
+https://github.com/Bearcoder6/Resume2Site-Skill.git
 
-Depending on your agent environment, install the Skill by copying `skills/resume2site` into your skill directory, or by giving the agent access to this repository and asking it to use `skills/resume2site/SKILL.md`.
+Use the Resume2Site Skill to turn my resume into a polished personal website.
+Ask me to choose one of the built-in style variants before generating the site.
+Do not publish my phone number unless I explicitly approve it.
+Preserve public GitHub, arXiv, DOI, Scholar, demo, and portfolio links.
+Create a GitHub Pages-ready static site.
+```
 
-Codex-style local install:
+If your Codex environment supports skill installation from GitHub, it can install the Skill directly. If not, use the manual install below.
+
+### Manual Install
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Bearcoder6/Resume2Site-Skill.git
+cd Resume2Site-Skill
+```
+
+Install into Codex's local skills folder:
 
 ```bash
 mkdir -p ~/.codex/skills
@@ -51,35 +61,26 @@ cp -R skills/resume2site ~/.codex/skills/resume2site
 Windows PowerShell:
 
 ```powershell
+git clone https://github.com/Bearcoder6/Resume2Site-Skill.git
+Set-Location Resume2Site-Skill
 New-Item -ItemType Directory -Force "$env:USERPROFILE\.codex\skills" | Out-Null
 Copy-Item -Recurse -Force ".\skills\resume2site" "$env:USERPROFILE\.codex\skills\resume2site"
 ```
 
-No package install is required. There is no `resume2site build` command in the core project.
+No package install is required. There is no `resume2site build` command.
 
-### Basic Usage
+### How To Use
 
-Example academic prompt:
-
-```text
-Use the Resume2Site Skill to convert my resume into an academic personal homepage.
-My files are in ./input.
-Use academic mode.
-Create the site in ./output/site.
-Do not invent publications or affiliations.
-Before finishing, run the final quality checklist.
-```
-
-Example landing-page prompt:
+After installing, open Codex in the folder where you want the generated site and say:
 
 ```text
-Use the Resume2Site Skill to convert my resume into a polished personal landing page.
-Use landing mode.
-Make it suitable for GitHub Pages.
-Create profile.json and site-plan.md before generating HTML.
+Use the Resume2Site Skill.
+My resume is at ./input/resume.pdf.
+Create the website in ./output/site.
+Ask me which built-in style variant I want before generating.
 ```
 
-Suggested input folder:
+You can provide any of these files:
 
 ```text
 input/
@@ -92,9 +93,15 @@ input/
   references/
 ```
 
-Expected output:
+The agent should create:
 
 ```text
+work/
+  profile.json
+  site-plan.md
+  asset-recommendations.md
+  final-review.md
+
 output/site/
   index.html
   styles.css
@@ -104,33 +111,33 @@ output/site/
   ASSET_CREDITS.md
 ```
 
-Intermediate files:
+Open `output/site/index.html` to preview the generated website.
 
-```text
-work/
-  profile.json
-  site-plan.md
-  asset-recommendations.md
-  final-review.md
-```
+### Built-In Styles
 
-The agent should create these folders as needed.
+After reading the resume, the agent recommends one style and asks the user to choose:
 
-### Modes
+| Variant | Best for |
+|---|---|
+| `academic-editorial` | Academic homepages with papers, education, research, advisors, or grants |
+| `academic-lab` | AI, data, engineering, robotics, systems, or applied research profiles |
+| `engineering-commercial` | Developer, algorithm, data, cloud, security, and job-seeking technical profiles |
+| `business-polished` | Product, consulting, operations, finance, management, and enterprise-facing profiles |
+| `creative-portfolio` | Design, media, writing, marketing, creators, and client-facing work |
+| `minimal-resume-site` | Conservative, sparse, formal, or fast one-page personal sites |
 
-Academic Homepage mode is for graduate students, PhD applicants, researchers, professors, publication-heavy users, lab users, and research project portfolios. It favors a clean profile card or sidebar, About Me, News, Research Interests, Education, Selected Publications, Selected Projects, Honors & Awards, Experience, and Contact.
+The default output is desktop-first. Mobile is a simple fallback unless the user asks for mobile-first design.
 
-Personal Landing Page mode is for job seekers, developers, designers, product people, creators, freelancers, and personal-brand users. It favors a strong hero, positioning, core strengths, selected works, experience highlights, skills, contact CTA, and optional resume download.
+### What The Skill Protects
 
-### Style And Assets
-
-The Skill includes built-in style distillation notes for academic homepages and personal landing pages. Users do not need to research or distill style themselves. After reading the resume, the agent should recommend a style and ask the user to choose from the built-in variants: academic editorial, academic lab, engineering commercial, business polished, creative portfolio, or minimal resume site. User screenshots or preferences can supplement the selected variant.
-
-For visuals, the Skill can guide the agent to search free, open-licensed, or clearly free-to-use sources such as Wikimedia Commons, Openverse, Unsplash, Pexels, Pixabay, and carefully verified China-friendly sources. It should create `work/asset-recommendations.md` and, when assets are used, `output/site/ASSET_CREDITS.md`.
-
-### Privacy
-
-Resume2Site-Skill does not promise automatic local masking. It instructs the agent to warn users before processing sensitive resumes, avoid copying raw resumes into public output, ask before publishing phone numbers, never hide raw resume text in HTML comments, and keep internal notes out of `output/site`.
+- Creates `work/profile.json` before writing HTML.
+- Does not invent jobs, awards, publications, metrics, titles, advisors, or affiliations.
+- Does not copy raw resumes into public output.
+- Does not publish phone numbers unless the user approves.
+- Preserves public GitHub, arXiv, DOI, Scholar, website, demo, dataset, video, and portfolio links.
+- Uses official or reputable open icons when brand icons are available; otherwise uses text labels.
+- Checks visual assets for license, resolution, and fit before use.
+- Runs a final quality checklist and makes a polish pass.
 
 ### Repository Structure
 
@@ -138,22 +145,11 @@ Resume2Site-Skill does not promise automatic local masking. It instructs the age
 SKILL.md                         Root pointer for agents
 skill.json                       Lightweight metadata
 skills/resume2site/              Main installable Skill
-skills/resume2site/prompts/      Directly usable agent prompts
-skills/resume2site/templates/    Reference templates for generated sites
+skills/resume2site/prompts/      Agent prompts
+skills/resume2site/templates/    Reference output structures
 skills/resume2site/examples/     Fake academic and landing examples
-docs/                            Install, usage, process, and style notes
+docs/                            Supporting notes and images
 ```
-
-### Roadmap
-
-- Add more mode packs, such as designer portfolio and lab homepage.
-- Add more built-in style packs and reviewed visual examples.
-- Add optional agent-specific installation notes as platforms stabilize.
-- Add community-reviewed example outputs.
-
-### Contributing
-
-Contributions are welcome when they improve workflow clarity, design quality, privacy safety, examples, or agent compatibility. See `CONTRIBUTING.md`.
 
 ### License
 
@@ -161,72 +157,87 @@ MIT.
 
 ## 中文
 
-Resume2Site-Skill 是一个轻量级 Agent Skill，用来指导 Codex、Claude Code、Cursor 等编程智能体，把简历、项目、论文和可选风格参考转成精致的 GitHub Pages 个人网站。
+Resume2Site-Skill 是一个轻量级 Agent Skill，用来让 Codex、Claude Code、Cursor 等编程智能体把简历、项目、论文、头像、GitHub 链接、arXiv 链接和可选风格要求，转换成精致的 GitHub Pages 个人主页。
 
-它不是 CLI、SaaS、爬虫、解析器、Python 包、npm 包或完整建站系统。它的价值是：结构化工作流、prompt pack、设计规则、风格提炼、隐私规范、质量清单，以及 GitHub Pages 输出约定。
+它不是 CLI、SaaS、爬虫、解析器、Python 包、npm 包或完整建站系统。它的价值是给 Agent 一套稳定工作流：事实抽取、风格询问、设计规则、隐私规则、素材规则、链接迁移和最终质量检查。
 
-### 为什么用它
+### 最无脑用法
 
-- 先生成 `work/profile.json`，再生成网页，避免直接把原始简历糊成 HTML。
-- 支持两种主模式：学术主页和个人商业/求职落地页。
-- 强制事实优先，不编造论文、奖项、指标、职位或背书。
-- 让页面更像真正的个人网站，而不是简历换皮。
-- 内置学术风和商业/求职落地页的风格蒸馏规则，用户不需要自己研究怎么设计。
-- 给开放/免费素材检索、许可核验和署名规则，方便做出更精致的视觉。
-- 对公开输出保持隐私意识，并适配 GitHub Pages。
+把这个 GitHub 链接发给 Codex，然后直接说：
 
-### 安装方式
+```text
+请安装并使用这个 Skill：
+https://github.com/Bearcoder6/Resume2Site-Skill.git
 
-根据你的 Agent 环境，把 `skills/resume2site` 复制到对应的 Skill 目录，或者让 Agent 能访问这个仓库，并明确要求它读取 `skills/resume2site/SKILL.md`。
+用 Resume2Site Skill 把我的简历生成一个精致的个人主页。
+生成前先让我选择内置风格。
+除非我明确同意，不要公开我的手机号。
+保留简历里的 GitHub、arXiv、DOI、Scholar、Demo、作品集等公开链接。
+输出一个适配 GitHub Pages 的静态网站。
+```
 
-Codex 本地安装示例：
+如果你的 Codex 环境支持从 GitHub 安装 Skill，它可以直接安装。如果不支持，就用下面的手动安装方式。
+
+### 手动安装
+
+先克隆仓库：
+
+```bash
+git clone https://github.com/Bearcoder6/Resume2Site-Skill.git
+cd Resume2Site-Skill
+```
+
+安装到 Codex 本地 Skill 目录：
+
+```bash
+mkdir -p ~/.codex/skills
+cp -R skills/resume2site ~/.codex/skills/resume2site
+```
+
+Windows PowerShell：
 
 ```powershell
+git clone https://github.com/Bearcoder6/Resume2Site-Skill.git
+Set-Location Resume2Site-Skill
 New-Item -ItemType Directory -Force "$env:USERPROFILE\.codex\skills" | Out-Null
 Copy-Item -Recurse -Force ".\skills\resume2site" "$env:USERPROFILE\.codex\skills\resume2site"
 ```
 
-这个仓库不需要 `pip install`，也没有核心 CLI 命令。
+不需要 `pip install` 或 `npm install`，也没有 `resume2site build` 命令。
 
-### 使用示例
+### 使用方式
 
-学术主页：
-
-```text
-使用 Resume2Site Skill，把 ./input 里的简历生成学术个人主页。
-使用 academic mode。
-输出到 ./output/site。
-不要编造论文、导师、机构或奖项。
-结束前执行 final quality checklist。
-```
-
-个人落地页：
+安装后，在你希望生成网站的文件夹里打开 Codex，然后说：
 
 ```text
-使用 Resume2Site Skill，把我的简历生成精致的个人落地页。
-使用 landing mode。
-适配 GitHub Pages。
-先创建 profile.json 和 site-plan.md，再生成 HTML/CSS。
+使用 Resume2Site Skill。
+我的简历在 ./input/resume.pdf。
+请把网站生成到 ./output/site。
+生成前先让我选择内置风格。
 ```
 
-### 输入与输出
-
-推荐输入：
+你可以提供这些文件：
 
 ```text
 input/
   resume.pdf 或 resume.docx 或 resume.txt
-  avatar.png                  可选
-  github_links.txt             可选
-  paper_links.txt              可选
-  website_links.txt            可选
-  style_preference.txt         可选
-  references/                  可选截图或视觉参考
+  avatar.png
+  github_links.txt
+  paper_links.txt
+  website_links.txt
+  style_preference.txt
+  references/
 ```
 
-预期输出：
+Agent 会创建：
 
 ```text
+work/
+  profile.json
+  site-plan.md
+  asset-recommendations.md
+  final-review.md
+
 output/site/
   index.html
   styles.css
@@ -236,30 +247,46 @@ output/site/
   ASSET_CREDITS.md
 ```
 
-中间文件：
+打开 `output/site/index.html` 就能预览网页。
+
+### 内置风格
+
+Agent 读取简历后，会推荐一个风格，并让用户选择：
+
+| 风格 | 适合场景 |
+|---|---|
+| `academic-editorial` | 学术主页，适合论文、教育经历、研究方向、导师、基金等内容 |
+| `academic-lab` | 学术实验室感，适合 AI、数据、工程、机器人、系统、应用研究 |
+| `engineering-commercial` | 工程商业风，适合开发、算法、数据、云原生、安全等求职主页 |
+| `business-polished` | 商务精致风，适合产品、咨询、运营、金融、管理、企业服务 |
+| `creative-portfolio` | 创意作品集，适合设计、媒体、写作、营销、创作者、客户作品 |
+| `minimal-resume-site` | 极简正式风，适合内容较少、保守正式、快速生成的一页式主页 |
+
+默认产物是 PC / 桌面端优先。移动端只做基础降级，除非用户明确要求移动优先。
+
+### Skill 会保护什么
+
+- 先生成 `work/profile.json`，再生成网页。
+- 不编造工作、奖项、论文、指标、职位、导师或机构。
+- 不把原始简历复制进公开输出。
+- 不默认公开手机号。
+- 保留 GitHub、arXiv、DOI、Scholar、个人网站、Demo、数据集、视频、作品集等公开链接。
+- 有可靠来源时使用官方或可信开源图标；没有可靠图标时使用文字标签。
+- 使用图片素材前检查授权、分辨率和视觉适配度。
+- 生成后执行最终质量检查，并进行一次视觉 polish。
+
+### 仓库结构
 
 ```text
-work/
-  profile.json
-  site-plan.md
-  asset-recommendations.md
-  final-review.md
+SKILL.md                         Agent 入口提示
+skill.json                       轻量元数据
+skills/resume2site/              可安装的主 Skill
+skills/resume2site/prompts/      Agent prompts
+skills/resume2site/templates/    输出结构参考
+skills/resume2site/examples/     虚构学术/求职示例
+docs/                            辅助说明和项目图片
 ```
 
-### 两种模式
+### License
 
-学术主页适合研究生、博士申请者、科研人员、教授、论文导向 CV、实验室经历和研究项目展示。它强调克制、可信、信息密度、清晰论文格式和学术主页气质。
-
-个人落地页适合求职者、开发者、设计师、产品经理、创作者、自由职业者和个人品牌用户。它强调首屏定位、CTA、能力卡片、项目案例、经历亮点和更强的视觉表达。
-
-### 风格与素材
-
-`docs/style-distillation/` 提供发布前已经沉淀好的学术主页、个人落地页、UI 模式和反模式规则。用户不需要自己做风格蒸馏；Agent 默认应该调用这些内置风格规则。
-
-如果需要更贴近某种审美，用户可以把小红书、GitHub、Dribbble、Behance、学术主页或个人网站截图放到 `docs/style-references/`，但这些只能作为补充 mood reference，不能照抄具体设计或素材。
-
-素材方面，Skill 会指导 Agent 检索 Wikimedia Commons、Openverse、Unsplash、Pexels、Pixabay，以及许可清晰的国内/中文素材源。使用前必须核验具体素材页面的授权，并写入 `ASSET_CREDITS.md`。
-
-### 隐私
-
-Skill 不承诺自动解析或自动脱敏。它会要求 Agent 在处理敏感简历前提醒用户，不把原始简历复制进 `output/site/`，不默认公开手机号，不把原始简历藏在 HTML 注释里，也不把内部工作文件发布出去。
+MIT.
