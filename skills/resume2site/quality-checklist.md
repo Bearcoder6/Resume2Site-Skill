@@ -13,6 +13,8 @@ Use this checklist before finishing. Create `work/final-review.md` with pass/fai
 - No private files in `output/site/`.
 - No public phone number unless approved.
 - All links are structurally valid.
+- Public GitHub, arXiv, DOI, Scholar, website, demo, portfolio, dataset, video, and project/paper links from the resume are preserved unless intentionally omitted with a note.
+- Link icons, when used, are sourced from official or reputable open icon assets, use accessible labels, and match the page color system.
 - Desktop layout is polished at `1366px` to `1440px` wide.
 - `index.html`, `styles.css`, `.nojekyll`, and `README.md` exist.
 - `ASSET_CREDITS.md` exists if assets are used.

@@ -37,7 +37,14 @@ Create `work/profile.json` using this shape:
   "papers": [],
   "skills": [],
   "awards": [],
-  "links": [],
+  "links": [
+    {
+      "label": "",
+      "url": "",
+      "kind": "",
+      "source": ""
+    }
+  ],
   "mode": "",
   "sources": []
 }
@@ -48,6 +55,10 @@ Create `work/profile.json` using this shape:
 - Do not hallucinate.
 - Use empty strings or empty arrays for missing data.
 - Preserve important factual details.
+- Preserve all meaningful hyperlinks from the resume and optional materials, including GitHub, arXiv, DOI, Google Scholar, personal websites, project demos, portfolios, datasets, videos, and paper/project pages.
+- Put general profile links in `contact` when they clearly identify the person, and also keep them in `links` when they should be rendered as visible site links.
+- Attach project-specific or paper-specific links to the corresponding `projects[]` or `papers[]` entry when possible. Also keep a normalized copy in `links` if it is useful for global navigation or contact areas.
+- Use `kind` values such as `github`, `arxiv`, `doi`, `scholar`, `website`, `demo`, `portfolio`, `dataset`, `video`, or `other`.
 - Keep user-provided facts traceable when possible.
 - Improve wording later, not during raw extraction.
 - If GitHub or arXiv links are provided, summarize them only if you can access them. Otherwise ask the user to paste summaries.

@@ -43,6 +43,14 @@ Links
 
 If a field is missing, omit it rather than inventing it.
 
+## Link Preservation
+
+- Do not drop public work links found in the resume or supporting files.
+- Preserve GitHub, arXiv, DOI, Google Scholar, personal website, project demo, portfolio, dataset, video, and paper/project page links.
+- Render links near the content they belong to: paper links near papers, repository/demo links near projects, profile links near the hero or contact area.
+- Keep link labels concise and factual, such as `GitHub`, `arXiv`, `DOI`, `Scholar`, `Demo`, `Website`, `Dataset`, or the project/paper title.
+- If a link is private, broken, or clearly unrelated, do not publish it. Record the decision in `work/final-review.md`.
+
 ## Publication Entries
 
 Use:

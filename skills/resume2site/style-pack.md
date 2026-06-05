@@ -18,6 +18,9 @@ Use this built-in style pack as the default visual judgment for Resume2Site. The
 - Match the page language to the user's resume and request. Do not default to English-heavy labels when the user provided a Chinese resume.
 - Pick one style variant below and apply it consistently. Do not mix visual languages across sections.
 - On desktop, prevent overflow from long Chinese lines, URLs, and technology stacks. Let technical stacks wrap cleanly in cards.
+- Treat public links as content, not decoration. GitHub, arXiv, DOI, Scholar, demo, project, dataset, and portfolio links should be visible where relevant.
+- Use small single-color brand icons only when the source is official or a reputable open icon set and the license/terms allow use. Match icons to the page accent or text color.
+- Do not introduce a heavy icon library only for a few links; inline SVG or text labels are enough for static pages.
 
 ## Style Variants
 
