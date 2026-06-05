@@ -23,13 +23,21 @@ Use a modern but not generic style.
 Create profile.json and site-plan.md before generating HTML.
 ```
 
-## Style Reference Example
+## Style Direction Example
 
 ```text
 Use the Resume2Site Skill.
-Also analyze screenshots in ./docs/style-references as style inspiration.
-Do not copy exact layouts or assets.
-Distill the style into an original personal website.
+Use its built-in academic and landing style rules.
+Make the page polished without copying generic templates.
+If you use visual assets, search free/open/licensed sources and create ASSET_CREDITS.md.
+```
+
+Optional screenshot reference:
+
+```text
+Also look at screenshots in ./docs/style-references only as supplemental mood references.
+Do not copy exact layouts, artwork, or assets.
+Keep the built-in Resume2Site style rules as the baseline.
 ```
 
 ## Suggested Input Folder

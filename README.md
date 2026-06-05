@@ -31,7 +31,8 @@ It is not a CLI, SaaS app, crawler, parser, Python package, npm package, or full
 - Supports two clear modes: Academic Homepage and Personal Landing Page.
 - Guides factual writing without invented publications, metrics, titles, or awards.
 - Encourages polished visual design instead of resume-to-HTML dumping.
-- Provides asset recommendation and credit rules for open or free visual sources.
+- Provides built-in academic and landing style rules before release, so users do not need to distill style themselves.
+- Provides asset search, license-checking, and credit rules for open or free visual sources.
 - Keeps public output privacy-aware and GitHub Pages ready.
 
 ### Install
@@ -121,9 +122,9 @@ Personal Landing Page mode is for job seekers, developers, designers, product pe
 
 ### Style And Assets
 
-The Skill includes style distillation notes for academic homepages, personal landing pages, UI patterns, and anti-patterns. Users can place screenshots or references in `docs/style-references/`; the agent may distill the mood and structure, but must not copy exact layouts or assets.
+The Skill includes built-in style distillation notes for academic homepages and personal landing pages. Users do not need to research or distill style themselves. The agent should apply the built-in academic or landing style rules by default, then optionally adapt them to user-provided screenshots or preferences.
 
-For visuals, the Skill recommends open or free sources such as Unsplash, Pexels, Pixabay, Wikimedia Commons, and Openverse. It should create `work/asset-recommendations.md` and, when assets are used, `output/site/ASSET_CREDITS.md`.
+For visuals, the Skill can guide the agent to search free, open-licensed, or clearly free-to-use sources such as Wikimedia Commons, Openverse, Unsplash, Pexels, Pixabay, and carefully verified China-friendly sources. It should create `work/asset-recommendations.md` and, when assets are used, `output/site/ASSET_CREDITS.md`.
 
 ### Privacy
 
@@ -144,7 +145,7 @@ docs/                            Install, usage, process, and style notes
 ### Roadmap
 
 - Add more mode packs, such as designer portfolio and lab homepage.
-- Add more style reference distillation examples.
+- Add more built-in style packs and reviewed visual examples.
 - Add optional agent-specific installation notes as platforms stabilize.
 - Add community-reviewed example outputs.
 
@@ -168,7 +169,8 @@ Resume2Site-Skill 是一个轻量级 Agent Skill，用来指导 Codex、Claude C
 - 支持两种主模式：学术主页和个人商业/求职落地页。
 - 强制事实优先，不编造论文、奖项、指标、职位或背书。
 - 让页面更像真正的个人网站，而不是简历换皮。
-- 给开放素材推荐和署名规则，方便做出更精致的视觉。
+- 内置学术风和商业/求职落地页的风格蒸馏规则，用户不需要自己研究怎么设计。
+- 给开放/免费素材检索、许可核验和署名规则，方便做出更精致的视觉。
 - 对公开输出保持隐私意识，并适配 GitHub Pages。
 
 ### 安装方式
@@ -250,7 +252,11 @@ work/
 
 ### 风格与素材
 
-`docs/style-distillation/` 提供学术主页、个人落地页、UI 模式和反模式的风格提炼。用户可以把小红书、GitHub、Dribbble、Behance、学术主页或个人网站截图放到 `docs/style-references/`，让 Agent 提炼风格，但不能照抄具体设计或素材。
+`docs/style-distillation/` 提供发布前已经沉淀好的学术主页、个人落地页、UI 模式和反模式规则。用户不需要自己做风格蒸馏；Agent 默认应该调用这些内置风格规则。
+
+如果需要更贴近某种审美，用户可以把小红书、GitHub、Dribbble、Behance、学术主页或个人网站截图放到 `docs/style-references/`，但这些只能作为补充 mood reference，不能照抄具体设计或素材。
+
+素材方面，Skill 会指导 Agent 检索 Wikimedia Commons、Openverse、Unsplash、Pexels、Pixabay，以及许可清晰的国内/中文素材源。使用前必须核验具体素材页面的授权，并写入 `ASSET_CREDITS.md`。
 
 ### 隐私
 

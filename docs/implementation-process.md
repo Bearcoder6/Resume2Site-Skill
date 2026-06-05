@@ -55,9 +55,10 @@ To add a mode:
 5. Add a fake example.
 6. Update README and quality checklist.
 
-To add a style pack:
+To maintain or add a built-in style pack:
 
 1. Add notes under `docs/style-distillation/`.
-2. Add concrete do/don't rules.
-3. Add asset recommendation patterns.
-4. Avoid copying exact designs.
+2. Add concrete do/don't rules that agents can apply without asking users to research style.
+3. Add matching layout, typography, color, and asset recommendation patterns.
+4. Update `skills/resume2site/style-pack.md`.
+5. Avoid copying exact designs.

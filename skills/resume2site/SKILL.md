@@ -18,9 +18,11 @@ This Skill is not a CLI, parser, crawler, SaaS app, Python package, npm package,
 5. Choose academic or landing mode using `mode-rules.md`.
 6. Create `work/site-plan.md` using `prompts/plan-site.md`.
 7. Apply privacy rules before deciding what becomes public.
-8. Generate `output/site/index.html`, `output/site/styles.css`, `output/site/README.md`, `output/site/.nojekyll`, and assets as needed.
-9. If assets are recommended or used, create `work/asset-recommendations.md` and `output/site/ASSET_CREDITS.md`.
-10. Run the final quality checklist and improve the page once before finishing.
+8. Apply the built-in academic or landing style pack. User screenshots are optional supplements, not required style research.
+9. Search for free/open/licensed visual assets when useful and when the agent has browsing/network capability.
+10. Generate `output/site/index.html`, `output/site/styles.css`, `output/site/README.md`, `output/site/.nojekyll`, and assets as needed.
+11. If assets are recommended or used, create `work/asset-recommendations.md` and `output/site/ASSET_CREDITS.md`.
+12. Run the final quality checklist and improve the page once before finishing.
 
 ## Inputs
 
@@ -70,8 +72,8 @@ Never copy raw resumes, private notes, hidden mappings, or internal extraction l
 - `workflow.md`: complete sequence.
 - `privacy-rules.md`: public/private data handling.
 - `content-rules.md`: factual language and rewriting.
-- `asset-rules.md`: licensed asset recommendations and credits.
-- `style-pack.md`: style choices and polish guidance.
+- `asset-rules.md`: free/open/licensed asset search, verification, and credits.
+- `style-pack.md`: built-in academic and landing visual style guidance.
 - `quality-checklist.md`: final review criteria.
 
 ## Non-Negotiables

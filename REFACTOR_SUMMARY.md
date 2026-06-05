@@ -54,7 +54,8 @@ The generated site should include `index.html`, `styles.css`, `assets/`, `.nojek
 
 - Add more community-reviewed example outputs.
 - Add optional agent-specific installation notes as platforms stabilize.
-- Expand style reference examples without copying proprietary designs.
+- Expand built-in style packs and reviewed visual examples without copying proprietary designs.
+- Keep the asset source list current and conservative about licensing.
 - Add more specialized modes, such as lab homepage or designer portfolio.
 
 ## Suggested Next Steps

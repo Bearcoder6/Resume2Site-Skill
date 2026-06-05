@@ -1,6 +1,6 @@
 # Style Pack
 
-Use style as a translation layer between the person's background and their intended audience.
+Use this built-in style pack as the default visual judgment for Resume2Site. The user does not need to distill style manually. User screenshots or inspiration can be optional supplements, but the Skill should already know what academic and landing pages need to look like.
 
 ## Shared Principles
 
@@ -10,6 +10,8 @@ Use style as a translation layer between the person's background and their inten
 - Avoid generic AI gradients, excessive glassmorphism, random icons, and stock-photo cliches.
 - Keep sections dense enough to be useful but relaxed enough to feel designed.
 - Use responsive layouts and verify mobile readability.
+- Build one coherent visual system: type, color, spacing, borders, images, and section rhythm must feel related.
+- Add enough crafted details that the page feels designed: section labels, date rhythm, subtle rules, image treatment, hover states, and purposeful empty space.
 
 ## Academic Direction
 
@@ -20,6 +22,9 @@ Use restrained editorial design:
 - Fine borders, small caps, section rhythm, and readable publication formatting.
 - Subtle profile card or sidebar.
 - Optional visual band with library, paper, lab, campus, or abstract research imagery.
+- Prefer quiet confidence: credibility, clarity, and information design over personal-brand hype.
+- Use publication lists, research interests, and education blocks as core visual material.
+- Add subtle academic atmosphere through paper grain, soft grid, campus/library imagery, or careful typographic hierarchy.
 
 ## Landing Direction
 
@@ -30,10 +35,13 @@ Use a personal-brand design:
 - Concrete strengths and selected work cards.
 - CTA that fits the user's goal: contact, GitHub, portfolio, resume, Scholar, or email.
 - Expressive but not generic visual language.
+- Use stronger composition than academic mode: hero split, editorial band, proof strip, project case-study grid, or layered background.
+- Use project content as the main proof, not fake metrics.
+- Make the page feel commercially polished without becoming a generic SaaS landing page.
 
-## Style References
+## Optional User References
 
-When the user provides screenshots or inspiration, distill:
+The built-in style pack comes first. When the user provides screenshots or inspiration, use them only to supplement:
 
 - Layout rhythm.
 - Typography mood.
