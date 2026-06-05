@@ -130,6 +130,17 @@ output/site/
 
 Open `output/site/index.html` to preview the generated website.
 
+### 🌐 Publish The Site
+
+The generated site is just static files. To publish it with GitHub Pages:
+
+1. Create a GitHub repository for your personal website.
+2. Copy everything inside `output/site/` into that repository.
+3. Push the repository to GitHub.
+4. Open repository `Settings` → `Pages`, then deploy from the `main` branch root.
+
+For a user site such as `username.github.io`, name the repository exactly `username.github.io`. For a project site, GitHub Pages will usually publish it under `https://username.github.io/repository-name/`.
+
 ### 🎨 Built-In Styles
 
 After reading the resume, the agent recommends one style and asks the user to choose:
@@ -283,6 +294,17 @@ output/site/
 ```
 
 打开 `output/site/index.html` 就能预览网页。
+
+### 🌐 发布网页
+
+生成结果就是一组静态文件。想挂到 GitHub Pages，可以这样做：
+
+1. 新建一个 GitHub 仓库，用来放个人主页。
+2. 把 `output/site/` 里面的所有文件复制到这个仓库。
+3. 推送到 GitHub。
+4. 进入仓库 `Settings` → `Pages`，选择从 `main` 分支根目录部署。
+
+如果你想做 `username.github.io` 这种用户主页，仓库名要写成自己的 `username.github.io`。如果只是项目主页，一般会发布到 `https://username.github.io/repository-name/`。
 
 ### 🎨 内置风格
 
