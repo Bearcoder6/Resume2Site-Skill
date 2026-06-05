@@ -2,6 +2,7 @@ input/
 output/
 work/
 test/
+tmp/
 .DS_Store
 node_modules/
 .env

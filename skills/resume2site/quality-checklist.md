@@ -14,6 +14,7 @@ This is a lightweight file-based checklist. Do not require browser automation, s
 - No raw resume hidden in HTML.
 - No private files in `output/site/`.
 - No public phone number unless approved.
+- Resume portrait/avatar is preserved when present and extraction is reliable, or the failed extraction attempts are noted in `work/final-review.md`.
 - All links are structurally valid.
 - Public GitHub, arXiv, DOI, Scholar, website, demo, portfolio, dataset, video, and project/paper links from the resume are preserved unless intentionally omitted with a note.
 - Link icons, when used, are sourced from official or reputable open icon assets, use accessible labels, and match the page color system.

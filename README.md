@@ -33,6 +33,7 @@ It is not a CLI, SaaS app, crawler, parser, Python package, npm package, or full
 |---|---|
 | 🎨 Style intake | Ask the user to choose from built-in polished styles before generating |
 | 🧾 Resume extraction | Convert resume facts into `work/profile.json` first |
+| 🖼️ Avatar recovery | Preserve resume portraits from uploaded avatars, DOCX images, or reliable PDF/page crops |
 | 🔗 Link preservation | Keep GitHub, arXiv, DOI, Scholar, demo, project, and portfolio links |
 | 🖼️ Asset judgment | Use licensed, high-resolution, role-appropriate visuals when helpful |
 | 🔒 Privacy guard | Avoid publishing phone numbers or raw resumes by default |
@@ -162,6 +163,7 @@ The default output is desktop-first. Mobile is a simple fallback unless the user
 - Does not invent jobs, awards, publications, metrics, titles, advisors, or affiliations.
 - Does not copy raw resumes into public output.
 - Does not publish phone numbers unless the user approves.
+- Tries to preserve real resume portraits and records a note if extraction fails.
 - Preserves public GitHub, arXiv, DOI, Scholar, website, demo, dataset, video, and portfolio links.
 - Uses official or reputable open icons when brand icons are available; otherwise uses text labels.
 - Checks visual assets for license, resolution, and fit before use.
@@ -198,6 +200,7 @@ Resume2Site-Skill 是一个轻量级 Agent Skill，用来让 Codex、Claude Code
 |---|---|
 | 🎨 风格询问 | 生成前让用户从内置精致风格里选择 |
 | 🧾 简历抽取 | 先把简历事实整理成 `work/profile.json` |
+| 🖼️ 头像恢复 | 优先保留上传头像、DOCX 内嵌图或可靠的 PDF/页面裁剪头像 |
 | 🔗 链接迁移 | 保留 GitHub、arXiv、DOI、Scholar、Demo、项目、作品集链接 |
 | 🖼️ 素材判断 | 需要图片时优先找授权清晰、分辨率足够、适合职业气质的素材 |
 | 🔒 隐私保护 | 默认不公开手机号，也不把原始简历塞进网页 |
@@ -327,6 +330,7 @@ Agent 读取简历后，会推荐一个风格，并让用户选择：
 - 不编造工作、奖项、论文、指标、职位、导师或机构。
 - 不把原始简历复制进公开输出。
 - 不默认公开手机号。
+- 尽量保留简历里的真实头像；如果提取失败，会记录原因。
 - 保留 GitHub、arXiv、DOI、Scholar、个人网站、Demo、数据集、视频、作品集等公开链接。
 - 有可靠来源时使用官方或可信开源图标；没有可靠图标时使用文字标签。
 - 使用图片素材前检查授权、分辨率和视觉适配度。

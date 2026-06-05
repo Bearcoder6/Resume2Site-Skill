@@ -17,15 +17,16 @@ By default, do not require a browser, Playwright, screenshot capture, local dev 
 2. If PDF or DOCX extraction is unreliable, ask for `resume.txt`.
 3. Do not directly generate a website from the raw resume.
 4. Create `work/profile.json` first using `prompts/extract-profile.md`.
-5. Choose academic or landing mode using `mode-rules.md`.
-6. If the user did not already choose a style variant and requirements, pause and ask the Style Intake question below.
-7. Create `work/site-plan.md` using `prompts/plan-site.md`.
-8. Apply privacy rules before deciding what becomes public.
-9. Apply the selected built-in style variant from `style-pack.md`. User screenshots are optional supplements, not required style research.
-10. Search for free/open/licensed visual assets when useful and when the agent has browsing/network capability.
-11. Generate `output/site/index.html`, `output/site/styles.css`, `output/site/README.md`, `output/site/.nojekyll`, and assets as needed.
-12. If assets are recommended or used, create `work/asset-recommendations.md` and `output/site/ASSET_CREDITS.md`.
-13. Run the lightweight final quality checklist from files only, improve the page once if needed, then report the local preview path.
+5. If the resume appears to contain a portrait, follow `avatar-rules.md` and preserve it when extraction is reliable.
+6. Choose academic or landing mode using `mode-rules.md`.
+7. If the user did not already choose a style variant and requirements, pause and ask the Style Intake question below.
+8. Create `work/site-plan.md` using `prompts/plan-site.md`.
+9. Apply privacy rules before deciding what becomes public.
+10. Apply the selected built-in style variant from `style-pack.md`. User screenshots are optional supplements, not required style research.
+11. Search for free/open/licensed visual assets when useful and when the agent has browsing/network capability.
+12. Generate `output/site/index.html`, `output/site/styles.css`, `output/site/README.md`, `output/site/.nojekyll`, and assets as needed.
+13. If assets are recommended or used, create `work/asset-recommendations.md` and `output/site/ASSET_CREDITS.md`.
+14. Run the lightweight final quality checklist from files only, improve the page once if needed, then report the local preview path.
 
 ## Style Intake
 
@@ -101,6 +102,7 @@ Never copy raw resumes, private notes, hidden mappings, or internal extraction l
 - `privacy-rules.md`: public/private data handling.
 - `content-rules.md`: factual language and rewriting.
 - `asset-rules.md`: free/open/licensed asset search, verification, and credits.
+- `avatar-rules.md`: portrait extraction priority and fallback rules.
 - `style-pack.md`: built-in academic and landing visual style guidance.
 - `quality-checklist.md`: final review criteria.
 
@@ -114,3 +116,4 @@ Never copy raw resumes, private notes, hidden mappings, or internal extraction l
 - Do not hide raw resume text in HTML comments.
 - Make the page look like a personal website, not a raw resume.
 - Do not block completion on screenshots, browser automation, Playwright, or local preview tooling.
+- Do not silently drop an existing resume portrait; extract it or record why it could not be extracted.

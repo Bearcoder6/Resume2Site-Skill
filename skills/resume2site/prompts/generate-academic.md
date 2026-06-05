@@ -48,6 +48,7 @@ Omit empty sections.
 - Format publications clearly.
 - Preserve and render arXiv, DOI, Google Scholar, GitHub, project page, dataset, and personal website links from `profile.json`.
 - Place paper links directly in publication entries and profile links in the sidebar, header, or contact area.
+- If `person.avatar` is set, render the portrait in a clean profile slot without cropping off the head. If no avatar is available, use a polished no-photo layout instead of a broken image.
 - Use compact text links or single-color icons that match the page accent. Use brand icons only when they are available from official brand assets or a reputable open icon set with compatible terms.
 - If a reliable icon is not available, use a text label such as `arXiv`, `DOI`, `Scholar`, or `GitHub`.
 - Use subtle visual assets or CSS patterns.

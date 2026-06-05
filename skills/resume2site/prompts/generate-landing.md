@@ -45,6 +45,7 @@ Omit empty sections.
 - Use a strong but tasteful personal-brand visual direction.
 - Turn projects into selected works or case studies.
 - Preserve and render project, GitHub, demo, portfolio, and profile links from `profile.json`.
+- If `person.avatar` is set, render the portrait in a clean profile or hero slot without cropping off the head. If no avatar is available, use a polished no-photo layout instead of a broken image.
 - Use compact link buttons or inline link rows. Use brand icons only when they are available from official brand assets or a reputable open icon set with compatible terms.
 - Render brand icons as single-color `currentColor` or the page accent color so they fit the selected style. Do not use mismatched full-color logos in a restrained page.
 - If a reliable icon is not available, use a text label instead of adding an unverified image.

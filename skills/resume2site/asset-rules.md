@@ -11,6 +11,8 @@ work/asset-recommendations.md
 output/site/ASSET_CREDITS.md
 ```
 
+For user/resume portraits, also follow `avatar-rules.md`. A resume portrait is user-provided content, not a stock asset search task.
+
 ## Search Strategy
 
 Choose assets by the person's field, role, audience, and visual tone. Do not force a school, company, city, or exact location background unless it is visually strong and directly useful.
@@ -42,6 +44,7 @@ The asset must work as a web background. It should have calm areas for text, nat
 - Half-width hero image or large card visual: minimum `1800px` wide.
 - Small decorative image or thumbnail: minimum `900px` wide.
 - Portrait/avatar: minimum `600px` on the shorter side when possible.
+- If the only available resume portrait is smaller than `600px`, it may still be used in a small profile slot. Do not upscale it into a large hero image.
 - If a candidate fails the required size, do not stretch it as a background. Use it only as a small credited image, find a higher-resolution alternative, or use a CSS-only background.
 - Avoid blurry, over-compressed, low-light, heavily cropped, or visibly upscaled images even if their pixel dimensions pass.
 

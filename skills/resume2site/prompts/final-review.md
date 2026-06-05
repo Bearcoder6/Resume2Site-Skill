@@ -22,6 +22,7 @@ Shared checks:
 Academic or landing checks:
 Privacy checks:
 Asset credit checks:
+Avatar checks:
 Mobile/design checks:
 Fixes made:
 Remaining notes:
@@ -34,4 +35,5 @@ Remaining notes:
 - Confirm generated files exist.
 - Confirm the site does not contain fake facts.
 - Confirm the design is not just a raw resume.
+- Confirm any detected resume portrait is either used from `output/site/assets/` or has a recorded extraction failure note.
 - Confirm the final answer includes the local path to `output/site/index.html`.
