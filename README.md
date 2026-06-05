@@ -55,6 +55,7 @@ Preserve public GitHub, arXiv, DOI, Scholar, demo, and portfolio links.
 Create a GitHub Pages-ready static site.
 ```
 
+
 If your Codex environment supports skill installation from GitHub, it can install the Skill directly. If not, use the manual install below.
 
 ### 🛠️ Manual Install
