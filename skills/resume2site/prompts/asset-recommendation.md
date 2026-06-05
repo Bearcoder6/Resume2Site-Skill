@@ -32,6 +32,8 @@ Licensing notes:
 
 Resolution check:
 
+Visual fit check:
+
 CSS-only fallback:
 ```
 
@@ -44,8 +46,10 @@ If final assets are used, create `output/site/ASSET_CREDITS.md` with source, tit
 - Verify the source page, not only a search result snippet.
 - Record image dimensions and reject images that are too small for the intended placement.
 - For full-width backgrounds, prefer 3200px+ wide images and require at least 2560px wide.
+- Reject high-resolution images if they are visually wrong for the person's field, crop badly, contain distracting signage, or do not work as a webpage background.
+- Prefer CSS-only backgrounds when no asset is both licensed and visually suitable.
 - Do not use random stock people.
 - Prefer Wikimedia Commons or Openverse when strict open licensing matters.
-- For Unsplash, Pexels, Pixabay, 清若网, 图星人, or other platform-license sources, record the platform terms and asset page.
+- For Unsplash, Pexels, Pixabay, Qingruo / sootu.art, Tuxingren / tuxingren.com, or other platform-license sources, record the platform terms and asset page.
 - Prefer CSS-only patterns when licensing is unclear.
 - Do not copy user-provided inspiration exactly.

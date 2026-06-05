@@ -7,6 +7,7 @@ Use this built-in style pack as the default visual judgment for Resume2Site. The
 - Make the first screen immediately identify the person and their positioning.
 - Use strong typography and spacing instead of decorative clutter.
 - Use visual assets only when they support the person's story.
+- Choose background visuals by profession, field, and audience; do not force a school/place image unless it improves the page.
 - Avoid generic AI gradients, excessive glassmorphism, random icons, and stock-photo cliches.
 - Keep sections dense enough to be useful but relaxed enough to feel designed.
 - Use responsive layouts and verify mobile readability.
@@ -27,6 +28,7 @@ Use restrained editorial design:
 - Prefer quiet confidence: credibility, clarity, and information design over personal-brand hype.
 - Use publication lists, research interests, and education blocks as core visual material.
 - Add subtle academic atmosphere through paper grain, soft grid, campus/library imagery, or careful typographic hierarchy.
+- Academic atmosphere can come from translucent panels, gradients, paper texture, and low-contrast CSS patterns. A literal campus photo is optional, not required.
 - For Chinese academic pages, prefer Chinese section labels with English only where it is factual or conventional, such as paper titles, venues, arXiv, GitHub, or technical terms.
 
 ## Landing Direction
@@ -39,6 +41,7 @@ Use a personal-brand design:
 - CTA that fits the user's goal: contact, GitHub, portfolio, resume, Scholar, or email.
 - Expressive but not generic visual language.
 - Use stronger composition than academic mode: hero split, editorial band, proof strip, project case-study grid, or layered background.
+- Use role-appropriate backgrounds. Backend and engineering profiles can use technical grids, infrastructure-inspired abstraction, terminal/code rhythm, or product workspace imagery instead of literal school/company photos.
 - Use project content as the main proof, not fake metrics.
 - Make the page feel commercially polished without becoming a generic SaaS landing page.
 
