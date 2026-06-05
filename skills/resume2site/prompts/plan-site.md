@@ -45,6 +45,7 @@ Open questions:
 - Omit sections that have no real content.
 - State any assumption that affects the final website.
 - Do not invent missing facts to make the site fuller.
+- Base global positioning on repeated evidence, not on a single incidental project or the fact that a website is being generated.
 - Identify which contact details should be public.
 - Decide whether visual assets are needed.
 - Plan hero/profile/sidebar numbers only from explicit person-level facts. Do not use project-local or experience-local numbers as personal metrics.

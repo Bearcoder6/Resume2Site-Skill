@@ -62,6 +62,8 @@ Omit empty sections.
 - Use subtle visual assets or CSS patterns.
 - Keep the profile card clean and factual.
 - Do not expose generation-process notes in public copy. Never say the page was generated from a resume/DOCX/PDF, that data was omitted by privacy rules, or that metrics were kept in source sections.
+- Keep profile and about copy person-centered. Do not make the generator, demo context, source resume, or one incidental project the main public narrative.
+- Keep profile/about copy source-grounded. Avoid unsupported claims about the person's motivation, preference, or mindset; summarize research area, projects, methods, links, and verified outcomes instead.
 - Avoid fake metrics, commercial exaggeration, and generic AI gradients.
 - Run `bad-smell-checklist.md` before finalizing.
 

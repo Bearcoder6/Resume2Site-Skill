@@ -38,6 +38,9 @@ Convert resume bullets into website-friendly writing:
 - Remove weak generic phrases such as "passionate developer", "hard-working student", "detail-oriented individual", and "enthusiastic learner".
 - Prefer concrete descriptions: problem solved, user role, method used, result achieved, research contribution, project outcome.
 - Public page copy must read like a normal personal website. Do not mention that the page was generated from a resume, DOCX, PDF, Markdown, this Skill, an agent workflow, extraction rules, privacy rules, metric-placement rules, or final-review checks.
+- Global positioning should synthesize the person's role, field, audience, and repeated evidence. Do not make one tool/project, source file, or showcase goal sound like the person's entire identity unless the resume explicitly frames it that way.
+- Avoid internal QA/demo wording in public copy, such as "test material", "automatic test", "for testing", "sample output", or "generated example", unless it is clearly part of a public project title or the user asks to show it.
+- Avoid unsupported personality or preference claims such as "focuses on", "cares about", "is passionate about", or "tries to" unless the resume or user explicitly says so. Prefer factual synthesis: project types, responsibilities, methods, stack, and outcomes.
 
 ## Project Entries
 

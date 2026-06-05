@@ -14,6 +14,9 @@ This is a lightweight file-based checklist. Do not require browser automation, s
 - No empty visible sections.
 - No raw resume hidden in HTML.
 - No public page copy mentions generation process, source file type, extraction workflow, privacy-rule decisions, or final-review/internal Skill notes.
+- Hero, about, and positioning sections describe the person, not the generator, demo process, source resume, or one incidental project.
+- Public page copy avoids internal QA/demo wording unless it belongs to an explicit public project title.
+- Public page copy avoids unsupported personality, motivation, or preference claims.
 - No private files in `output/site/`.
 - No public phone number unless approved.
 - Resume portrait/avatar is preserved when present and extraction is reliable, or the failed extraction attempts are noted in `work/final-review.md`.

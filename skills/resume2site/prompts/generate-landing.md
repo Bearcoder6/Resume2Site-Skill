@@ -59,6 +59,8 @@ Omit empty sections.
 - Only create hero/profile metric cards from explicit person-level facts such as GPA, major rank, publication count, citation count, award count, or years of experience. If there are not enough clear person-level facts, use a text-led layout without metric cards.
 - Use concrete strengths instead of generic traits.
 - Do not expose generation-process notes in public copy. Never say the page was generated from a resume/DOCX/PDF, that data was omitted by privacy rules, or that metrics were kept in source sections.
+- Keep hero and positioning copy person-centered. Do not make the generator, demo context, source resume, or one incidental project the main public narrative.
+- Keep positioning source-grounded. Avoid unsupported claims about the person's motivation, preference, or mindset; summarize role, domain, responsibilities, stack, and outcomes instead.
 - Avoid fake testimonials, fake numbers, and generic SaaS visuals.
 - Optimize for PC / desktop by default.
 - Run `bad-smell-checklist.md` before finalizing.
