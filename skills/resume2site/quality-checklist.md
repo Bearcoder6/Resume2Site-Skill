@@ -18,7 +18,10 @@ Use this checklist before finishing. Create `work/final-review.md` with pass/fai
 - `ASSET_CREDITS.md` exists if assets are used.
 - Design does not look like a raw resume.
 - Language is polished but factual.
+- Page language matches the user's resume/request; English is not overused unless requested.
+- Typography scale is balanced across hero, section headings, cards, and mobile.
 - Page has a first-viewport identity signal: name, role, and mode-appropriate positioning.
+- Large background images meet the resolution threshold or are replaced by CSS-only visuals.
 
 ## Academic Checks
 

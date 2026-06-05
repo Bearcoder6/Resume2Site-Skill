@@ -27,6 +27,7 @@ Omit sections with no real content.
 - Subtle borders and quiet section dividers.
 - Clear publication formatting.
 - Strong typography.
+- Balanced type scale; avoid huge hero headlines that overpower the profile content.
 - No commercial exaggeration.
 - No huge AI gradients.
 - No fake metrics.
@@ -38,3 +39,4 @@ Omit sections with no real content.
 - Publications should be easy to scan by title, authors, venue, year, and links.
 - Research interests should be specific, not buzzword soup.
 - Project summaries should explain research problem, method, and outcome.
+- Section labels should follow the user's primary language unless the user asks for an English site.

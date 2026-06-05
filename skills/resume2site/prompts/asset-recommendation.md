@@ -30,6 +30,8 @@ Candidate assets:
 
 Licensing notes:
 
+Resolution check:
+
 CSS-only fallback:
 ```
 
@@ -40,6 +42,8 @@ If final assets are used, create `output/site/ASSET_CREDITS.md` with source, tit
 - Recommend open, free-to-use, or clearly licensed sources only.
 - Do not use unlicensed images.
 - Verify the source page, not only a search result snippet.
+- Record image dimensions and reject images that are too small for the intended placement.
+- For full-width backgrounds, prefer 3200px+ wide images and require at least 2560px wide.
 - Do not use random stock people.
 - Prefer Wikimedia Commons or Openverse when strict open licensing matters.
 - For Unsplash, Pexels, Pixabay, 清若网, 图星人, or other platform-license sources, record the platform terms and asset page.

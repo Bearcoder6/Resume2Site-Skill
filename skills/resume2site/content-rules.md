@@ -20,6 +20,9 @@ Use empty strings or arrays for missing data.
 
 Convert resume bullets into website-friendly writing:
 
+- Match the primary language of the user's resume and request by default.
+- If the resume is Chinese and the user did not request English, use Chinese-first section labels and body copy. Keep English only for paper titles, venue names, technical terms, official program names, and links.
+- Avoid making the page feel like an English template filled with translated Chinese facts.
 - Make academic content credible, concise, and source-grounded.
 - Make landing-page content clear, specific, and personal-brand oriented.
 - Remove weak generic phrases such as "passionate developer", "hard-working student", "detail-oriented individual", and "enthusiastic learner".

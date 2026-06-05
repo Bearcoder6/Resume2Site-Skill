@@ -16,10 +16,20 @@ output/site/ASSET_CREDITS.md
 1. Decide whether the site needs a visual asset or can use CSS-only patterns.
 2. Generate 3-6 search phrases based on the user's mode, field, and tone.
 3. Search sources with explicit license or usage pages.
-4. Prefer assets without identifiable people, brands, trademarks, or private locations.
-5. Record candidates in `work/asset-recommendations.md`.
-6. Use or download an asset only when its license/terms are clear.
-7. Write `output/site/ASSET_CREDITS.md` with source, title, author, license/terms, URL, and access date.
+4. Check image dimensions before using a candidate as a background.
+5. Prefer assets without identifiable people, brands, trademarks, or private locations.
+6. Record candidates in `work/asset-recommendations.md`.
+7. Use or download an asset only when its license/terms are clear and its resolution is suitable.
+8. Write `output/site/ASSET_CREDITS.md` with source, title, author, license/terms, URL, and access date.
+
+## Resolution Requirements
+
+- Full-width hero or large background: prefer at least `3200px` wide; minimum `2560px` wide.
+- Half-width hero image or large card visual: minimum `1800px` wide.
+- Small decorative image or thumbnail: minimum `900px` wide.
+- Portrait/avatar: minimum `600px` on the shorter side when possible.
+- If a candidate fails the required size, do not stretch it as a background. Use it only as a small credited image, find a higher-resolution alternative, or use a CSS-only background.
+- Avoid blurry, over-compressed, low-light, heavily cropped, or visibly upscaled images even if their pixel dimensions pass.
 
 ## International Sources
 

@@ -12,6 +12,8 @@ Use this built-in style pack as the default visual judgment for Resume2Site. The
 - Use responsive layouts and verify mobile readability.
 - Build one coherent visual system: type, color, spacing, borders, images, and section rhythm must feel related.
 - Add enough crafted details that the page feels designed: section labels, date rhythm, subtle rules, image treatment, hover states, and purposeful empty space.
+- Keep type scale balanced. Hero headings should feel confident, not oversized; section headings should not visually compete with the person's name.
+- Match the page language to the user's resume and request. Do not default to English-heavy labels when the user provided a Chinese resume.
 
 ## Academic Direction
 
@@ -25,6 +27,7 @@ Use restrained editorial design:
 - Prefer quiet confidence: credibility, clarity, and information design over personal-brand hype.
 - Use publication lists, research interests, and education blocks as core visual material.
 - Add subtle academic atmosphere through paper grain, soft grid, campus/library imagery, or careful typographic hierarchy.
+- For Chinese academic pages, prefer Chinese section labels with English only where it is factual or conventional, such as paper titles, venues, arXiv, GitHub, or technical terms.
 
 ## Landing Direction
 
