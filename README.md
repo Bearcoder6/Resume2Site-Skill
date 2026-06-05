@@ -34,41 +34,17 @@
   <img src="assets/showcase-source-resume.jpg" alt="Source resume screenshot" width="420">
 </p>
 
-### Academic Editorial
+| Academic Editorial | Academic Lab |
+|---|---|
+| <a href="assets/showcase-academic-editorial.jpg"><img src="assets/showcase-academic-editorial.jpg" alt="Academic Editorial example"></a> | <a href="assets/showcase-academic-lab.jpg"><img src="assets/showcase-academic-lab.jpg" alt="Academic Lab example"></a> |
 
-<a href="assets/showcase-academic-editorial.jpg">
-  <img src="assets/showcase-academic-editorial.jpg" alt="Academic Editorial example">
-</a>
+| Engineering Commercial | Business Polished |
+|---|---|
+| <a href="assets/showcase-engineering-commercial.jpg"><img src="assets/showcase-engineering-commercial.jpg" alt="Engineering Commercial example"></a> | <a href="assets/showcase-business-polished.jpg"><img src="assets/showcase-business-polished.jpg" alt="Business Polished example"></a> |
 
-### Academic Lab
-
-<a href="assets/showcase-academic-lab.jpg">
-  <img src="assets/showcase-academic-lab.jpg" alt="Academic Lab example">
-</a>
-
-### Engineering Commercial
-
-<a href="assets/showcase-engineering-commercial.jpg">
-  <img src="assets/showcase-engineering-commercial.jpg" alt="Engineering Commercial example">
-</a>
-
-### Business Polished
-
-<a href="assets/showcase-business-polished.jpg">
-  <img src="assets/showcase-business-polished.jpg" alt="Business Polished example">
-</a>
-
-### Creative Portfolio
-
-<a href="assets/showcase-creative-portfolio.jpg">
-  <img src="assets/showcase-creative-portfolio.jpg" alt="Creative Portfolio example">
-</a>
-
-### Minimal Resume Site
-
-<a href="assets/showcase-minimal-resume-site.jpg">
-  <img src="assets/showcase-minimal-resume-site.jpg" alt="Minimal Resume Site example">
-</a>
+| Creative Portfolio | Minimal Resume Site |
+|---|---|
+| <a href="assets/showcase-creative-portfolio.jpg"><img src="assets/showcase-creative-portfolio.jpg" alt="Creative Portfolio example"></a> | <a href="assets/showcase-minimal-resume-site.jpg"><img src="assets/showcase-minimal-resume-site.jpg" alt="Minimal Resume Site example"></a> |
 
 <details open>
 <summary><strong>中文说明</strong></summary>
