@@ -44,6 +44,8 @@ Omit empty sections.
 ## Design Requirements
 
 - Make it look like a real academic homepage, not a resume dump.
+- Include `<meta charset="utf-8">` and write generated files as UTF-8.
+- Do not show the selected style variant name in visible page text, page title, navigation, hero, headings, or footer. The variant name belongs in `work/site-plan.md` only.
 - Use strong readable typography and restrained spacing.
 - Format publications clearly.
 - Preserve and render arXiv, DOI, Google Scholar, GitHub, project page, dataset, and personal website links from `profile.json`.

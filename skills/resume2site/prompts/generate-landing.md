@@ -42,6 +42,8 @@ Omit empty sections.
 ## Design Requirements
 
 - Make the first viewport polished and specific to the person.
+- Include `<meta charset="utf-8">` and write generated files as UTF-8.
+- Do not show the selected style variant name in visible page text, page title, navigation, hero, headings, or footer. The variant name belongs in `work/site-plan.md` only.
 - Use a strong but tasteful personal-brand visual direction.
 - Turn projects into selected works or case studies.
 - Preserve and render project, GitHub, demo, portfolio, and profile links from `profile.json`.

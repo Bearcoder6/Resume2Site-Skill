@@ -19,6 +19,23 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-475569">
 </p>
 
+## ✨ Showcase / 效果展示
+
+All six examples below were generated from the same ordinary Word resume.
+下面 6 个效果图来自同一份普通 Word 简历。
+
+<p align="center">
+  <img src="assets/showcase-source-resume.jpg" alt="Source resume screenshot" width="420">
+</p>
+
+| Academic Editorial | Academic Lab | Engineering Commercial |
+|---|---|---|
+| <img src="assets/showcase-academic-editorial.jpg" alt="Academic Editorial example"> | <img src="assets/showcase-academic-lab.jpg" alt="Academic Lab example"> | <img src="assets/showcase-engineering-commercial.jpg" alt="Engineering Commercial example"> |
+
+| Business Polished | Creative Portfolio | Minimal Resume Site |
+|---|---|---|
+| <img src="assets/showcase-business-polished.jpg" alt="Business Polished example"> | <img src="assets/showcase-creative-portfolio.jpg" alt="Creative Portfolio example"> | <img src="assets/showcase-minimal-resume-site.jpg" alt="Minimal Resume Site example"> |
+
 <a id="english"></a>
 
 ## 🌍 English
@@ -169,6 +186,8 @@ The default output is desktop-first. Mobile is a simple fallback unless the user
 - Checks visual assets for license, resolution, and fit before use.
 - Runs a lightweight file-based quality checklist and makes a polish pass.
 - Does not block completion on screenshots, Playwright, browser automation, or local preview tooling.
+- Writes generated text files as UTF-8 and includes `<meta charset="utf-8">` in HTML.
+- Keeps internal style variant names out of the public page copy.
 
 ### 📁 Repository Structure
 
@@ -336,6 +355,8 @@ Agent 读取简历后，会推荐一个风格，并让用户选择：
 - 使用图片素材前检查授权、分辨率和视觉适配度。
 - 生成后执行轻量文件级质量检查，并进行一次 polish。
 - 不会因为缺少截图、Playwright、浏览器自动化或本地预览环境而卡住。
+- 生成 HTML / JSON / Markdown / CSS 时使用 UTF-8，并在 HTML 中包含 `<meta charset="utf-8">`。
+- 不会把内部风格名显示在用户最终网页里。
 
 ### 📁 仓库结构
 

@@ -36,4 +36,5 @@ Remaining notes:
 - Confirm the site does not contain fake facts.
 - Confirm the design is not just a raw resume.
 - Confirm any detected resume portrait is either used from `output/site/assets/` or has a recorded extraction failure note.
+- Confirm generated HTML has `<meta charset="utf-8">` and visible page copy does not expose internal style variant names.
 - Confirm the final answer includes the local path to `output/site/index.html`.

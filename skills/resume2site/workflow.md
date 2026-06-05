@@ -21,6 +21,8 @@ Do not skip `work/profile.json`. It is the factual contract between the resume a
 Do not skip style intake for new users. It is the usability checkpoint between factual extraction and design generation.
 Do not silently drop resume portraits. If extraction fails, record the attempted fallback in `work/final-review.md`.
 Do not require browser automation, screenshots, Playwright, a local dev server, or any visual testing environment. Those checks are optional only when the user explicitly asks or the environment already supports them without setup.
+Do not display the selected style variant name in the public page. It belongs in `work/site-plan.md`, not in user-facing page copy.
+Write generated HTML, JSON, Markdown, and CSS files as UTF-8. Include `<meta charset="utf-8">` in every generated HTML file.
 
 ## Recommended Site Files
 

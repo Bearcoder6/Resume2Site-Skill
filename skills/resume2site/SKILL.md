@@ -11,6 +11,8 @@ This Skill is not a CLI, parser, crawler, SaaS app, Python package, npm package,
 
 By default, do not require a browser, Playwright, screenshot capture, local dev server, or visual regression environment. Generate the static HTML/CSS site, run lightweight file-based checks, then give the user the `output/site/index.html` path so they can preview it locally. Browser or screenshot checks are optional only when the user explicitly asks for them or the environment clearly supports them without extra setup.
 
+Always write generated HTML, CSS, JSON, Markdown, and asset-credit files as UTF-8. Every generated HTML page must include `<meta charset="utf-8">` in the `<head>`.
+
 ## Required Workflow
 
 1. Read the user's resume and optional materials from the provided paths.
@@ -117,3 +119,5 @@ Never copy raw resumes, private notes, hidden mappings, or internal extraction l
 - Make the page look like a personal website, not a raw resume.
 - Do not block completion on screenshots, browser automation, Playwright, or local preview tooling.
 - Do not silently drop an existing resume portrait; extract it or record why it could not be extracted.
+- Treat style variant names as internal implementation details. Record the selected variant in `work/site-plan.md`, but do not show names such as `academic-editorial`, `engineering-commercial`, or "学术编辑风" as visible page headings, hero text, navigation labels, titles, or footers unless the user explicitly asks.
+- Use UTF-8 for generated text files and include `<meta charset="utf-8">` in generated HTML.
