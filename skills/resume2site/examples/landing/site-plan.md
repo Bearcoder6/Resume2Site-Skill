@@ -1,6 +1,7 @@
 # Site Plan
 
 Mode: landing
+Style variant: engineering-commercial
 Audience: recruiters and backend engineering teams
 Primary goal: present Maya as a reliable backend engineer with practical API and data-system projects.
 Assumptions: no phone number is available or needed.

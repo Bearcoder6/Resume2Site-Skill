@@ -10,13 +10,14 @@ Use this built-in style pack as the default visual judgment for Resume2Site. The
 - Choose background visuals by profession, field, and audience; do not force a school/place image unless it improves the page.
 - Avoid generic AI gradients, excessive glassmorphism, random icons, and stock-photo cliches.
 - Keep sections dense enough to be useful but relaxed enough to feel designed.
-- Use responsive layouts and verify mobile readability.
+- Optimize for desktop / PC viewing first, especially `1366px` to `1440px` wide screens.
+- Add only a simple mobile fallback unless the user explicitly asks for mobile-first or fully responsive design.
 - Build one coherent visual system: type, color, spacing, borders, images, and section rhythm must feel related.
 - Add enough crafted details that the page feels designed: section labels, date rhythm, subtle rules, image treatment, hover states, and purposeful empty space.
 - Keep type scale balanced. Hero headings should feel confident, not oversized; section headings should not visually compete with the person's name.
 - Match the page language to the user's resume and request. Do not default to English-heavy labels when the user provided a Chinese resume.
 - Pick one style variant below and apply it consistently. Do not mix visual languages across sections.
-- For mobile, prefer simpler navigation and tighter type over complex menus. Prevent horizontal overflow from long Chinese lines, URLs, and technology stacks.
+- On desktop, prevent overflow from long Chinese lines, URLs, and technology stacks. Let technical stacks wrap cleanly in cards.
 
 ## Style Variants
 

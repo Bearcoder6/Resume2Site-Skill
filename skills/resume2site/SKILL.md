@@ -16,13 +16,38 @@ This Skill is not a CLI, parser, crawler, SaaS app, Python package, npm package,
 3. Do not directly generate a website from the raw resume.
 4. Create `work/profile.json` first using `prompts/extract-profile.md`.
 5. Choose academic or landing mode using `mode-rules.md`.
-6. Create `work/site-plan.md` using `prompts/plan-site.md`.
-7. Apply privacy rules before deciding what becomes public.
-8. Apply the built-in academic or landing style pack. User screenshots are optional supplements, not required style research.
-9. Search for free/open/licensed visual assets when useful and when the agent has browsing/network capability.
-10. Generate `output/site/index.html`, `output/site/styles.css`, `output/site/README.md`, `output/site/.nojekyll`, and assets as needed.
-11. If assets are recommended or used, create `work/asset-recommendations.md` and `output/site/ASSET_CREDITS.md`.
-12. Run the final quality checklist and improve the page once before finishing.
+6. If the user did not already choose a style variant and requirements, pause and ask the Style Intake question below.
+7. Create `work/site-plan.md` using `prompts/plan-site.md`.
+8. Apply privacy rules before deciding what becomes public.
+9. Apply the selected built-in style variant from `style-pack.md`. User screenshots are optional supplements, not required style research.
+10. Search for free/open/licensed visual assets when useful and when the agent has browsing/network capability.
+11. Generate `output/site/index.html`, `output/site/styles.css`, `output/site/README.md`, `output/site/.nojekyll`, and assets as needed.
+12. If assets are recommended or used, create `work/asset-recommendations.md` and `output/site/ASSET_CREDITS.md`.
+13. Run the final quality checklist and improve the page once before finishing.
+
+## Style Intake
+
+After `work/profile.json` exists, recommend one style variant from `style-pack.md`, then ask one concise question before generating the site unless the user already made a clear choice.
+
+Use this menu:
+
+```text
+I have read the resume. Recommended style: <variant>. Reason: <one short reason>.
+
+Please choose a homepage style, or reply "use recommended":
+1. academic-editorial: academic homepage for papers, research, and education-first profiles
+2. academic-lab: academic lab feel for AI, engineering, data, or applied research
+3. engineering-commercial: polished engineering style for developer, algorithm, and data job seeking
+4. business-polished: refined business style for product, consulting, operations, finance, or enterprise profiles
+5. creative-portfolio: visual portfolio for design, media, writing, creator, or client work
+6. minimal-resume-site: conservative one-page site for formal or sparse resumes
+
+You can add requirements too, such as language, whether to publish email, whether to use the portrait, whether to search for background images, or light/dark preference.
+```
+
+Ask this question in the user's language when possible.
+
+If the user replies with "use recommended", "auto", or an equivalent answer, proceed with the recommended variant and record that assumption in `work/site-plan.md`.
 
 ## Inputs
 
@@ -66,6 +91,7 @@ Never copy raw resumes, private notes, hidden mappings, or internal extraction l
 - Academic Homepage: read `academic-layout-rules.md` and `prompts/generate-academic.md`.
 - Personal Landing Page: read `landing-layout-rules.md` and `prompts/generate-landing.md`.
 - If uncertain, read `mode-rules.md`. Ask the user when evidence is balanced.
+- Style variants: read `style-pack.md` and use the selected variant consistently.
 
 ## Core References
 

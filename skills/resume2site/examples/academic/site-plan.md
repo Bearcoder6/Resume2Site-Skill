@@ -1,6 +1,7 @@
 # Site Plan
 
 Mode: academic
+Style variant: academic-editorial
 Audience: faculty, research collaborators, graduate admissions reviewers
 Primary goal: present a credible academic profile with research interests, publications, projects, and honors.
 Assumptions: no phone number should be shown publicly.

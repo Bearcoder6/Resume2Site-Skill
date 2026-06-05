@@ -8,13 +8,15 @@ Follow this sequence for every Resume2Site task.
 4. Read optional GitHub, paper, website, avatar, and user style preference inputs.
 5. Create `work/profile.json` from source facts.
 6. Decide `academic` or `landing` mode.
-7. Create `work/site-plan.md`.
-8. Apply the built-in academic or landing style pack.
-9. Search for free/open/licensed visual assets when useful and record candidates.
-10. Generate `output/site/` as a static GitHub Pages site.
-11. Run final review, then make one polish pass before finishing.
+7. If the user did not already choose a style variant and requirements, ask the Style Intake question from `SKILL.md`.
+8. Create `work/site-plan.md` with the selected style variant.
+9. Apply the built-in style variant from `style-pack.md`.
+10. Search for free/open/licensed visual assets when useful and record candidates.
+11. Generate `output/site/` as a static GitHub Pages site.
+12. Run final review, then make one polish pass before finishing.
 
 Do not skip `work/profile.json`. It is the factual contract between the resume and the website.
+Do not skip style intake for new users. It is the usability checkpoint between factual extraction and design generation.
 
 ## Recommended Site Files
 

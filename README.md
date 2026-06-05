@@ -21,7 +21,7 @@
 
 ## English
 
-Resume2Site-Skill helps coding agents extract structured profile information, choose an academic or personal landing-page style, plan the website narrative, generate GitHub Pages-ready files, and polish the final design.
+Resume2Site-Skill helps coding agents extract structured profile information, choose an academic or personal landing-page style, plan the website narrative, generate desktop-first GitHub Pages-ready files, and polish the final design.
 
 It is not a CLI, SaaS app, crawler, parser, Python package, npm package, or full website builder. It is a Skill: a compact workflow, prompt pack, design rule pack, style distillation pack, quality checklist, and GitHub Pages output convention for agents such as Codex, Claude Code, Cursor, and similar coding assistants.
 
@@ -29,6 +29,8 @@ It is not a CLI, SaaS app, crawler, parser, Python package, npm package, or full
 
 - Turns a raw resume into a structured `work/profile.json` before any page is generated.
 - Supports two clear modes: Academic Homepage and Personal Landing Page.
+- Prompts new users to choose from built-in style variants before generation, with a recommended default.
+- Targets polished PC / desktop personal homepages by default.
 - Guides factual writing without invented publications, metrics, titles, or awards.
 - Encourages polished visual design instead of resume-to-HTML dumping.
 - Provides built-in academic and landing style rules before release, so users do not need to distill style themselves.
@@ -122,7 +124,7 @@ Personal Landing Page mode is for job seekers, developers, designers, product pe
 
 ### Style And Assets
 
-The Skill includes built-in style distillation notes for academic homepages and personal landing pages. Users do not need to research or distill style themselves. The agent should apply the built-in academic or landing style rules by default, then optionally adapt them to user-provided screenshots or preferences.
+The Skill includes built-in style distillation notes for academic homepages and personal landing pages. Users do not need to research or distill style themselves. After reading the resume, the agent should recommend a style and ask the user to choose from the built-in variants: academic editorial, academic lab, engineering commercial, business polished, creative portfolio, or minimal resume site. User screenshots or preferences can supplement the selected variant.
 
 For visuals, the Skill can guide the agent to search free, open-licensed, or clearly free-to-use sources such as Wikimedia Commons, Openverse, Unsplash, Pexels, Pixabay, and carefully verified China-friendly sources. It should create `work/asset-recommendations.md` and, when assets are used, `output/site/ASSET_CREDITS.md`.
 
