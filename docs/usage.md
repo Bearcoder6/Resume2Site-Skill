@@ -10,7 +10,7 @@ My files are in ./input.
 Use academic mode.
 Create the site in ./output/site.
 Do not invent publications or affiliations.
-Before finishing, run the final quality checklist.
+Before finishing, run the lightweight file-based final quality checklist.
 ```
 
 ## Landing Example
@@ -30,6 +30,7 @@ Use the Resume2Site Skill.
 Use its built-in academic and landing style rules.
 Make the page polished without copying generic templates.
 If you use visual assets, search free/open/licensed sources and create ASSET_CREDITS.md.
+Do not require screenshots, Playwright, browser automation, or a local preview server.
 ```
 
 Optional screenshot reference:
@@ -54,6 +55,10 @@ input/
 ```
 
 If PDF or DOCX reading fails, provide `resume.txt`.
+
+## Preview
+
+The generated site is static. Open `output/site/index.html` directly to preview it. Browser automation and screenshots are optional supplements, not part of the required workflow.
 
 ## Required Intermediate Step
 

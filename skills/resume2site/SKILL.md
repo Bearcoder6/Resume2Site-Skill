@@ -1,13 +1,15 @@
 ---
 name: resume2site
-description: Lightweight Agent Skill for turning resumes, GitHub projects, papers, and optional style references into polished GitHub Pages personal websites. Use when Codex, Claude Code, Cursor, or another coding agent needs to extract a structured profile, choose academic homepage or personal landing-page mode, plan site narrative, generate static HTML/CSS output, recommend licensed assets, protect privacy, and run a final quality review.
+description: Lightweight Agent Skill for turning resumes, GitHub projects, papers, and optional style references into polished GitHub Pages personal websites. Use when Codex, Claude Code, Cursor, or another coding agent needs to extract a structured profile, choose academic homepage or personal landing-page mode, plan site narrative, generate static HTML/CSS output, recommend licensed assets, protect privacy, and run a lightweight file-based final quality review.
 ---
 
 # Resume2Site
 
 Use this Skill to guide a coding agent from resume materials to a polished GitHub Pages-ready personal website.
 
-This Skill is not a CLI, parser, crawler, SaaS app, Python package, npm package, or full automation system. Use the agent environment's available file-reading, writing, browser, and development tools.
+This Skill is not a CLI, parser, crawler, SaaS app, Python package, npm package, or full automation system. Use the agent environment's available file-reading, writing, and development tools.
+
+By default, do not require a browser, Playwright, screenshot capture, local dev server, or visual regression environment. Generate the static HTML/CSS site, run lightweight file-based checks, then give the user the `output/site/index.html` path so they can preview it locally. Browser or screenshot checks are optional only when the user explicitly asks for them or the environment clearly supports them without extra setup.
 
 ## Required Workflow
 
@@ -23,7 +25,7 @@ This Skill is not a CLI, parser, crawler, SaaS app, Python package, npm package,
 10. Search for free/open/licensed visual assets when useful and when the agent has browsing/network capability.
 11. Generate `output/site/index.html`, `output/site/styles.css`, `output/site/README.md`, `output/site/.nojekyll`, and assets as needed.
 12. If assets are recommended or used, create `work/asset-recommendations.md` and `output/site/ASSET_CREDITS.md`.
-13. Run the final quality checklist and improve the page once before finishing.
+13. Run the lightweight final quality checklist from files only, improve the page once if needed, then report the local preview path.
 
 ## Style Intake
 
@@ -111,3 +113,4 @@ Never copy raw resumes, private notes, hidden mappings, or internal extraction l
 - Ask before publicly including phone numbers or sensitive personal details.
 - Do not hide raw resume text in HTML comments.
 - Make the page look like a personal website, not a raw resume.
+- Do not block completion on screenshots, browser automation, Playwright, or local preview tooling.

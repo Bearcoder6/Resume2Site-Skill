@@ -13,10 +13,12 @@ Follow this sequence for every Resume2Site task.
 9. Apply the built-in style variant from `style-pack.md`.
 10. Search for free/open/licensed visual assets when useful and record candidates.
 11. Generate `output/site/` as a static GitHub Pages site.
-12. Run final review, then make one polish pass before finishing.
+12. Run a lightweight file-based final review, then make one polish pass before finishing.
+13. Report the generated `output/site/index.html` path to the user.
 
 Do not skip `work/profile.json`. It is the factual contract between the resume and the website.
 Do not skip style intake for new users. It is the usability checkpoint between factual extraction and design generation.
+Do not require browser automation, screenshots, Playwright, a local dev server, or any visual testing environment. Those checks are optional only when the user explicitly asks or the environment already supports them without setup.
 
 ## Recommended Site Files
 

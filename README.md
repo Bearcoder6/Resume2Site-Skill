@@ -37,6 +37,7 @@ It is not a CLI, SaaS app, crawler, parser, Python package, npm package, or full
 | 🖼️ Asset judgment | Use licensed, high-resolution, role-appropriate visuals when helpful |
 | 🔒 Privacy guard | Avoid publishing phone numbers or raw resumes by default |
 | 🚀 Static output | Create a GitHub Pages-ready `output/site/` folder |
+| 🪶 Lightweight review | Check generated files without requiring screenshots, Playwright, or a local browser setup |
 
 ### 🚀 Easiest Way
 
@@ -153,7 +154,8 @@ The default output is desktop-first. Mobile is a simple fallback unless the user
 - Preserves public GitHub, arXiv, DOI, Scholar, website, demo, dataset, video, and portfolio links.
 - Uses official or reputable open icons when brand icons are available; otherwise uses text labels.
 - Checks visual assets for license, resolution, and fit before use.
-- Runs a final quality checklist and makes a polish pass.
+- Runs a lightweight file-based quality checklist and makes a polish pass.
+- Does not block completion on screenshots, Playwright, browser automation, or local preview tooling.
 
 ### 📁 Repository Structure
 
@@ -189,6 +191,7 @@ Resume2Site-Skill 是一个轻量级 Agent Skill，用来让 Codex、Claude Code
 | 🖼️ 素材判断 | 需要图片时优先找授权清晰、分辨率足够、适合职业气质的素材 |
 | 🔒 隐私保护 | 默认不公开手机号，也不把原始简历塞进网页 |
 | 🚀 静态输出 | 生成可直接部署到 GitHub Pages 的 `output/site/` |
+| 🪶 轻量检查 | 只检查生成文件，不强制依赖截图、Playwright 或本地浏览器环境 |
 
 ### 🚀 最无脑用法
 
@@ -305,7 +308,8 @@ Agent 读取简历后，会推荐一个风格，并让用户选择：
 - 保留 GitHub、arXiv、DOI、Scholar、个人网站、Demo、数据集、视频、作品集等公开链接。
 - 有可靠来源时使用官方或可信开源图标；没有可靠图标时使用文字标签。
 - 使用图片素材前检查授权、分辨率和视觉适配度。
-- 生成后执行最终质量检查，并进行一次视觉 polish。
+- 生成后执行轻量文件级质量检查，并进行一次 polish。
+- 不会因为缺少截图、Playwright、浏览器自动化或本地预览环境而卡住。
 
 ### 📁 仓库结构
 

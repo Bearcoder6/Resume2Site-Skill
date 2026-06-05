@@ -2,6 +2,8 @@
 
 Use this prompt after initial HTML/CSS generation.
 
+Do this from the generated files by default. Do not require screenshots, browser automation, Playwright, or a local dev server. If a visual preview tool is already available and the user asked for visual checking, it may be used as an optional supplement.
+
 ## Review
 
 Check:

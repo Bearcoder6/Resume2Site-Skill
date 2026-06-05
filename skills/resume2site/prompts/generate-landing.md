@@ -54,4 +54,4 @@ Omit empty sections.
 
 ## Final Step
 
-Run `prompts/final-review.md`, fix important issues, then write `work/final-review.md`.
+Run the lightweight file-based `prompts/final-review.md`, fix important issues, write `work/final-review.md`, then give the user the local `output/site/index.html` path. Do not require screenshots or browser automation.

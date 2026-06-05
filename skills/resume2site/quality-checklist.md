@@ -2,6 +2,8 @@
 
 Use this checklist before finishing. Create `work/final-review.md` with pass/fail notes and fix important failures.
 
+This is a lightweight file-based checklist. Do not require browser automation, screenshots, Playwright, local dev servers, or visual regression tools. If those tools are unavailable, still finish normally after checking generated files and content.
+
 ## Shared Checks
 
 - No hallucinated experience.
@@ -16,6 +18,7 @@ Use this checklist before finishing. Create `work/final-review.md` with pass/fai
 - Public GitHub, arXiv, DOI, Scholar, website, demo, portfolio, dataset, video, and project/paper links from the resume are preserved unless intentionally omitted with a note.
 - Link icons, when used, are sourced from official or reputable open icon assets, use accessible labels, and match the page color system.
 - Desktop layout is polished at `1366px` to `1440px` wide.
+- Desktop layout is designed for `1366px` to `1440px` wide screens based on CSS/static review; screenshot verification is optional, not required.
 - `index.html`, `styles.css`, `.nojekyll`, and `README.md` exist.
 - `ASSET_CREDITS.md` exists if assets are used.
 - Design does not look like a raw resume.
