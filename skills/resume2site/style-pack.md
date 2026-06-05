@@ -26,6 +26,8 @@ Use this built-in style pack as the default visual judgment for Resume2Site. The
 
 Use these as distilled, lightweight recipes. They are not fixed templates; adapt them to the resume content.
 
+Every variant must cover the same five design decisions: `Visual language`, `Layout`, `Details`, `Links`, and `Avoid`.
+
 ### `academic-editorial`
 
 For papers, labs, advisors, research interests, grants, and graduate or faculty-style pages.
@@ -33,6 +35,7 @@ For papers, labs, advisors, research interests, grants, and graduate or faculty-
 - Visual language: near-white paper surface, fine borders, serif or scholarly display headings, restrained green/ink/navy accent.
 - Layout: left profile/sidebar plus main research column, or top profile band plus publication sections.
 - Details: publication cards, date rhythm, research tags, subtle paper grain or library/research imagery.
+- Links: place Scholar, ORCID, GitHub, arXiv, DOI, paper, and lab links near the profile or publication entries.
 - Avoid: startup CTA language, fake metrics, dark technical hero unless the user asks.
 
 ### `academic-lab`
@@ -42,6 +45,7 @@ For academic resumes with engineering, AI, data, robotics, systems, or applied r
 - Visual language: translucent panels, soft grids, low-contrast gradients, light lab/research atmosphere.
 - Layout: profile panel plus research/project modules; allow wider horizontal composition than a resume.
 - Details: method tags, datasets/tools, research-to-engineering bridge, optional abstract CSS diagrams.
+- Links: place arXiv, DOI, GitHub, project page, dataset, demo, and lab links in compact research/project rows.
 - Avoid: looking like a product SaaS page or a literal school brochure.
 
 ### `engineering-commercial`
@@ -51,6 +55,7 @@ For backend, frontend, AI engineer, data engineer, cloud, security, and job-seek
 - Visual language: dark or neutral technical background, one restrained accent, crisp cards, code/grid/infrastructure cues.
 - Layout: split hero with portrait or project signal, proof strip, selected project case cards, skills grouped by system role.
 - Details: stack chips, architecture highlights, performance facts only when present in the resume.
+- Links: show GitHub, demo, project page, technical blog, and portfolio links as compact action rows with single-color icons or text labels.
 - Avoid: generic startup landing copy, invented numbers, school/company background images that do not support the role.
 
 ### `business-polished`
@@ -60,6 +65,7 @@ For product, consulting, operations, finance, management, sales, and enterprise-
 - Visual language: light premium surface, strong whitespace, sober accent color, precise typography.
 - Layout: confident hero, capability bands, experience timeline, selected outcomes or work highlights.
 - Details: role scope, industries, tools, collaboration strengths, clear contact path.
+- Links: show website, LinkedIn, portfolio, case-study, press, report, or public work links as restrained text actions.
 - Avoid: overly playful graphics, neon technical motifs, academic publication framing.
 
 ### `creative-portfolio`
@@ -69,6 +75,7 @@ For design, media, writing, marketing, creator, and client-facing portfolios.
 - Visual language: editorial asymmetry, strong image treatment, expressive but controlled type, richer section rhythm.
 - Layout: immersive first viewport, selected work gallery, case-study cards, process or services section.
 - Details: thumbnails, project images, client/work categories, tasteful motion when the stack supports it.
+- Links: show portfolio, live work, social/profile, video, press, writing, or client-safe project links close to the work item.
 - Avoid: empty decoration, fake client logos, motion that hides content.
 
 ### `minimal-resume-site`
@@ -78,6 +85,7 @@ For conservative, fast, formal, or sparse resumes.
 - Visual language: clean one-page site, quiet type hierarchy, limited color, strong readability.
 - Layout: name/role hero, compact sections, timeline, skills, contact.
 - Details: printable feel, high contrast, no oversized hero, no decorative background unless it adds clarity.
+- Links: keep GitHub, Scholar, website, email, DOI, arXiv, demo, and portfolio links in a simple text row or compact contact section.
 - Avoid: trying to make sparse content look big through empty cards or huge typography.
 
 ## Academic Direction
