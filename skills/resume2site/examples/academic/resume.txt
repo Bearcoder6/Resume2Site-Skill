@@ -1,0 +1,23 @@
+Dr. Lina Park
+Email: lina.park@example.com
+Website: https://lina-park.example.com
+Google Scholar: https://scholar.example.com/lina-park
+
+Research Interests:
+Human-centered machine learning, interpretable recommendation systems, educational data mining.
+
+Education:
+Ph.D. in Computer Science, Example University, 2025.
+M.S. in Data Science, Example Institute, 2020.
+
+Publications:
+Lina Park, Omar Chen. Interpretable Feedback Loops for Student Recommendation Systems. Example Conference on Learning Analytics, 2025.
+Lina Park, Mira Singh. Modeling Help-Seeking Behavior in Online Courses. Example Journal of Educational Data, 2024.
+
+Projects:
+CoursePath Explorer: built an interactive research prototype for exploring course recommendation explanations.
+Learning Signal Audit: analyzed noisy behavioral signals in online learning logs.
+
+Honors:
+Example University Dissertation Fellowship, 2024.
+Best Paper Honorable Mention, Example Learning Analytics Workshop, 2023.

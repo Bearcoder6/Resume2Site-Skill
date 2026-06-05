@@ -1,0 +1,18 @@
+{
+  "name": "resume2site",
+  "title": "Resume2Site Skill",
+  "description": "A lightweight Agent Skill for turning resumes, projects, and papers into polished GitHub Pages personal websites.",
+  "version": "0.1.0",
+  "type": "agent-skill",
+  "entry": "skills/resume2site/SKILL.md",
+  "tags": [
+    "resume",
+    "portfolio",
+    "github-pages",
+    "academic-homepage",
+    "personal-website",
+    "codex",
+    "claude",
+    "skill"
+  ]
+}

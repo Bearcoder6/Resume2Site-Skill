@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": "Maya Torres",
+    "headline": "Backend engineer focused on reliable APIs and data-heavy products",
+    "location": "",
+    "bio": "Maya builds backend systems for analytics, workflow automation, and developer-facing tools.",
+    "avatar": ""
+  },
+  "contact": {
+    "email": "maya.torres@example.com",
+    "phone": "",
+    "website": "https://maya-torres.example.com",
+    "github": "https://github.com/example-maya",
+    "linkedin": "",
+    "google_scholar": ""
+  },
+  "education": [],
+  "experience": [
+    {
+      "role": "Backend Engineering Intern",
+      "organization": "Example Cloud Studio",
+      "year": "2025",
+      "summary": "Built API endpoints for a usage analytics dashboard and improved internal query performance."
+    }
+  ],
+  "projects": [
+    {
+      "name": "SignalDesk",
+      "summary": "Dashboard backend for tracking product usage signals with PostgreSQL and FastAPI."
+    },
+    {
+      "name": "QueueLite",
+      "summary": "Small job queue service with retry handling and monitoring endpoints."
+    },
+    {
+      "name": "Campus API Kit",
+      "summary": "Reusable API templates for student developer teams."
+    }
+  ],
+  "papers": [],
+  "skills": [
+    "Python",
+    "Java",
+    "FastAPI",
+    "Spring Boot",
+    "PostgreSQL",
+    "Redis",
+    "Docker",
+    "GitHub Actions"
+  ],
+  "awards": [
+    "Example Hackathon Finalist, 2024"
+  ],
+  "links": [],
+  "mode": "landing",
+  "sources": [
+    {
+      "type": "resume",
+      "path": "skills/resume2site/examples/landing/resume.txt"
+    }
+  ]
+}

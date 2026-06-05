@@ -1,0 +1,18 @@
+input/
+output/
+work/
+test/
+.DS_Store
+node_modules/
+.env
+*.log
+
+# Local caches and editor artifacts
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+*.pyc
+*.egg-info/
+build/
+dist/

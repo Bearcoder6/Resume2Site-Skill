@@ -1,0 +1,3 @@
+display_name: Resume2Site
+short_description: Turn resumes and projects into polished GitHub Pages personal websites.
+default_prompt: Use Resume2Site to convert my resume into a polished GitHub Pages personal website. Create profile.json and site-plan.md before generating the site, choose academic or landing mode, and run the final quality checklist.

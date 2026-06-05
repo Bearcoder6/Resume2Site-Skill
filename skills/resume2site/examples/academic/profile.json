@@ -1,0 +1,73 @@
+{
+  "person": {
+    "name": "Dr. Lina Park",
+    "headline": "Researcher in human-centered machine learning and educational data mining",
+    "location": "",
+    "bio": "Lina studies interpretable machine learning systems for learning environments, with a focus on recommendation explanations and student support.",
+    "avatar": ""
+  },
+  "contact": {
+    "email": "lina.park@example.com",
+    "phone": "",
+    "website": "https://lina-park.example.com",
+    "github": "",
+    "linkedin": "",
+    "google_scholar": "https://scholar.example.com/lina-park"
+  },
+  "education": [
+    {
+      "degree": "Ph.D. in Computer Science",
+      "institution": "Example University",
+      "year": "2025"
+    },
+    {
+      "degree": "M.S. in Data Science",
+      "institution": "Example Institute",
+      "year": "2020"
+    }
+  ],
+  "experience": [],
+  "projects": [
+    {
+      "name": "CoursePath Explorer",
+      "summary": "Interactive research prototype for exploring course recommendation explanations."
+    },
+    {
+      "name": "Learning Signal Audit",
+      "summary": "Analysis of noisy behavioral signals in online learning logs."
+    }
+  ],
+  "papers": [
+    {
+      "title": "Interpretable Feedback Loops for Student Recommendation Systems",
+      "authors": "Lina Park, Omar Chen",
+      "venue": "Example Conference on Learning Analytics",
+      "year": "2025"
+    },
+    {
+      "title": "Modeling Help-Seeking Behavior in Online Courses",
+      "authors": "Lina Park, Mira Singh",
+      "venue": "Example Journal of Educational Data",
+      "year": "2024"
+    }
+  ],
+  "skills": [
+    "Interpretable machine learning",
+    "Learning analytics",
+    "Recommendation systems",
+    "Python",
+    "Data visualization"
+  ],
+  "awards": [
+    "Example University Dissertation Fellowship, 2024",
+    "Best Paper Honorable Mention, Example Learning Analytics Workshop, 2023"
+  ],
+  "links": [],
+  "mode": "academic",
+  "sources": [
+    {
+      "type": "resume",
+      "path": "skills/resume2site/examples/academic/resume.txt"
+    }
+  ]
+}

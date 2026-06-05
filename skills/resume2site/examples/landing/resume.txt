@@ -1,0 +1,22 @@
+Maya Torres
+Email: maya.torres@example.com
+GitHub: https://github.com/example-maya
+Portfolio: https://maya-torres.example.com
+
+Target Role:
+Backend engineer focused on reliable APIs and data-heavy products.
+
+Experience:
+Backend Engineering Intern, Example Cloud Studio, 2025.
+Built API endpoints for a usage analytics dashboard and improved internal query performance.
+
+Projects:
+SignalDesk: designed a dashboard backend for tracking product usage signals with PostgreSQL and FastAPI.
+QueueLite: built a small job queue service with retry handling and monitoring endpoints.
+Campus API Kit: created reusable API templates for student developer teams.
+
+Skills:
+Python, Java, FastAPI, Spring Boot, PostgreSQL, Redis, Docker, GitHub Actions.
+
+Awards:
+Example Hackathon Finalist, 2024.
