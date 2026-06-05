@@ -112,6 +112,7 @@ Never copy raw resumes, private notes, hidden mappings, or internal extraction l
 
 - Extract facts before rewriting them.
 - Do not invent missing experience, publications, metrics, awards, affiliations, advisors, testimonials, or credentials.
+- Keep numeric evidence in its source context. Project or experience numbers such as latency, API counts, test cases, benchmark results, or cost changes must not be reused as personal/profile metrics.
 - Use empty strings or arrays for missing profile fields.
 - Keep user-provided facts traceable to sources when possible.
 - Ask before publicly including phone numbers or sensitive personal details.

@@ -16,6 +16,16 @@ Extract facts first. Improve language only after `work/profile.json` exists.
 
 Use empty strings or arrays for missing data.
 
+## Numeric Evidence Placement
+
+Numbers must stay attached to their original source context.
+
+- Project-local or experience-local numbers belong only inside that project or experience entry. Examples: latency, response time, API count, test case count, retry count, throughput, cost reduction, bug count, user count, revenue, conversion, or benchmark results.
+- Do not move project or experience numbers into the hero, profile card, sidebar, personal info area, or global highlight cards.
+- Only use a number as a personal/global profile metric when the resume explicitly presents it as a person-level fact near identity, education, honors, publications, or contact information. Examples: GPA, major rank, graduation year, publication count, citation count, patent count, award count, or years of experience.
+- If a number's scope is ambiguous, keep it in the detailed resume section where it appears, or omit it from decorative metric cards.
+- Global metric cards are optional. A clean no-metric layout is better than a misleading metric layout.
+
 ## Rewrite Style
 
 Convert resume bullets into website-friendly writing:

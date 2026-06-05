@@ -10,6 +10,7 @@ This is a lightweight file-based checklist. Do not require browser automation, s
 - No fake awards.
 - No fake papers.
 - No fake metrics.
+- No project-local or experience-local numbers appear in hero stats, profile cards, sidebars, personal info, or global highlight cards.
 - No empty visible sections.
 - No raw resume hidden in HTML.
 - No private files in `output/site/`.

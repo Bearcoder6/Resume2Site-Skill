@@ -34,6 +34,7 @@ Remaining notes:
 - Do not publish raw resumes, internal notes, or private mappings.
 - Confirm generated files exist.
 - Confirm the site does not contain fake facts.
+- Confirm project-local or experience-local numbers, such as latency, API count, test count, throughput, cost, or benchmark results, remain inside their original project/experience sections and are not displayed as personal/profile metrics.
 - Confirm the design is not just a raw resume.
 - Confirm any detected resume portrait is either used from `output/site/assets/` or has a recorded extraction failure note.
 - Confirm generated HTML has `<meta charset="utf-8">` and visible page copy does not expose internal style variant names.

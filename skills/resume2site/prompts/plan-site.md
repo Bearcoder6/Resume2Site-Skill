@@ -41,3 +41,5 @@ Open questions:
 - Do not invent missing facts to make the site fuller.
 - Identify which contact details should be public.
 - Decide whether visual assets are needed.
+- Plan hero/profile/sidebar numbers only from explicit person-level facts. Do not use project-local or experience-local numbers as personal metrics.
+- If useful numbers exist only inside projects or experience, keep them in those detailed sections and use a no-metric hero/profile design.

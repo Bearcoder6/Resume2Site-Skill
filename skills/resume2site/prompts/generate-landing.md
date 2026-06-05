@@ -51,6 +51,8 @@ Omit empty sections.
 - Use compact link buttons or inline link rows. Use brand icons only when they are available from official brand assets or a reputable open icon set with compatible terms.
 - Render brand icons as single-color `currentColor` or the page accent color so they fit the selected style. Do not use mismatched full-color logos in a restrained page.
 - If a reliable icon is not available, use a text label instead of adding an unverified image.
+- Keep numeric evidence in its source section. Do not place project-local or experience-local numbers in hero stats, profile cards, sidebar cards, personal info, or global highlight strips.
+- Only create hero/profile metric cards from explicit person-level facts such as GPA, major rank, publication count, citation count, award count, or years of experience. If there are not enough clear person-level facts, use a text-led layout without metric cards.
 - Use concrete strengths instead of generic traits.
 - Avoid fake testimonials, fake numbers, and generic SaaS visuals.
 - Optimize for PC / desktop by default.

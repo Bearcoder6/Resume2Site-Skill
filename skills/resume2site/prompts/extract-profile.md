@@ -56,6 +56,9 @@ Create `work/profile.json` using this shape:
 - Do not hallucinate.
 - Use empty strings or empty arrays for missing data.
 - Preserve important factual details.
+- Preserve numeric facts with their source scope. Numbers from project or experience bullets, such as latency, API count, test count, throughput, cost, benchmark, or optimization results, must remain inside that specific `projects[]` or `experience[]` entry.
+- Do not copy project-local or experience-local numbers into `person`, `contact`, headline, bio, or generic/global highlights.
+- Treat a number as person-level only when the resume explicitly presents it as identity, education, honor, publication, or career-level information, such as GPA, major rank, graduation year, publication count, citation count, patent count, award count, or years of experience.
 - Preserve an existing portrait when reliable. If the user provides an avatar file or the resume includes a portrait image, save it into `output/site/assets/` when possible and set `person.avatar` to the relative path.
 - For DOCX resumes, inspect embedded images such as `word/media/*` before deciding that no portrait exists.
 - For PDF resumes, try embedded image extraction or first-page portrait crop fallback when available.

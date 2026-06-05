@@ -53,6 +53,8 @@ Omit empty sections.
 - If `person.avatar` is set, render the portrait in a clean profile slot without cropping off the head. If no avatar is available, use a polished no-photo layout instead of a broken image.
 - Use compact text links or single-color icons that match the page accent. Use brand icons only when they are available from official brand assets or a reputable open icon set with compatible terms.
 - If a reliable icon is not available, use a text label such as `arXiv`, `DOI`, `Scholar`, or `GitHub`.
+- Keep numeric evidence in its source section. Do not place project-local or experience-local numbers in profile cards, sidebar cards, personal info, hero stats, or global highlight strips.
+- Only create profile/sidebar metric cards from explicit person-level academic facts such as GPA, major rank, publication count, citation count, patent count, award count, or years of experience. If these facts are missing or sparse, use a clean profile layout without metric cards.
 - Use subtle visual assets or CSS patterns.
 - Keep the profile card clean and factual.
 - Avoid fake metrics, commercial exaggeration, and generic AI gradients.
