@@ -18,6 +18,7 @@ Create `work/site-plan.md` with:
 # Site Plan
 
 Mode:
+Style variant:
 Audience:
 Primary goal:
 Assumptions:
@@ -34,6 +35,7 @@ Open questions:
 ## Rules
 
 - Choose academic or landing mode from evidence.
+- Choose a style variant from `style-pack.md`.
 - Omit sections that have no real content.
 - State any assumption that affects the final website.
 - Do not invent missing facts to make the site fuller.

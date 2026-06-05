@@ -22,6 +22,8 @@ Use this checklist before finishing. Create `work/final-review.md` with pass/fai
 - Typography scale is balanced across hero, section headings, cards, and mobile.
 - Page has a first-viewport identity signal: name, role, and mode-appropriate positioning.
 - Large background images meet the resolution threshold or are replaced by CSS-only visuals.
+- A concrete style variant is named in `work/site-plan.md` and the page follows it consistently.
+- Responsive layouts avoid horizontal overflow from nav, long Chinese text, URLs, or technology stacks.
 
 ## Academic Checks
 

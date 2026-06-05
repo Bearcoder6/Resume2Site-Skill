@@ -15,6 +15,66 @@ Use this built-in style pack as the default visual judgment for Resume2Site. The
 - Add enough crafted details that the page feels designed: section labels, date rhythm, subtle rules, image treatment, hover states, and purposeful empty space.
 - Keep type scale balanced. Hero headings should feel confident, not oversized; section headings should not visually compete with the person's name.
 - Match the page language to the user's resume and request. Do not default to English-heavy labels when the user provided a Chinese resume.
+- Pick one style variant below and apply it consistently. Do not mix visual languages across sections.
+- For mobile, prefer simpler navigation and tighter type over complex menus. Prevent horizontal overflow from long Chinese lines, URLs, and technology stacks.
+
+## Style Variants
+
+Use these as distilled, lightweight recipes. They are not fixed templates; adapt them to the resume content.
+
+### `academic-editorial`
+
+For papers, labs, advisors, research interests, grants, and graduate or faculty-style pages.
+
+- Visual language: near-white paper surface, fine borders, serif or scholarly display headings, restrained green/ink/navy accent.
+- Layout: left profile/sidebar plus main research column, or top profile band plus publication sections.
+- Details: publication cards, date rhythm, research tags, subtle paper grain or library/research imagery.
+- Avoid: startup CTA language, fake metrics, dark technical hero unless the user asks.
+
+### `academic-lab`
+
+For academic resumes with engineering, AI, data, robotics, systems, or applied research signals.
+
+- Visual language: translucent panels, soft grids, low-contrast gradients, light lab/research atmosphere.
+- Layout: profile panel plus research/project modules; allow wider horizontal composition than a resume.
+- Details: method tags, datasets/tools, research-to-engineering bridge, optional abstract CSS diagrams.
+- Avoid: looking like a product SaaS page or a literal school brochure.
+
+### `engineering-commercial`
+
+For backend, frontend, AI engineer, data engineer, cloud, security, and job-seeking technical resumes.
+
+- Visual language: dark or neutral technical background, one restrained accent, crisp cards, code/grid/infrastructure cues.
+- Layout: split hero with portrait or project signal, proof strip, selected project case cards, skills grouped by system role.
+- Details: stack chips, architecture highlights, performance facts only when present in the resume.
+- Avoid: generic startup landing copy, invented numbers, school/company background images that do not support the role.
+
+### `business-polished`
+
+For product, consulting, operations, finance, management, sales, and enterprise-facing resumes.
+
+- Visual language: light premium surface, strong whitespace, sober accent color, precise typography.
+- Layout: confident hero, capability bands, experience timeline, selected outcomes or work highlights.
+- Details: role scope, industries, tools, collaboration strengths, clear contact path.
+- Avoid: overly playful graphics, neon technical motifs, academic publication framing.
+
+### `creative-portfolio`
+
+For design, media, writing, marketing, creator, and client-facing portfolios.
+
+- Visual language: editorial asymmetry, strong image treatment, expressive but controlled type, richer section rhythm.
+- Layout: immersive first viewport, selected work gallery, case-study cards, process or services section.
+- Details: thumbnails, project images, client/work categories, tasteful motion when the stack supports it.
+- Avoid: empty decoration, fake client logos, motion that hides content.
+
+### `minimal-resume-site`
+
+For conservative, fast, formal, or sparse resumes.
+
+- Visual language: clean one-page site, quiet type hierarchy, limited color, strong readability.
+- Layout: name/role hero, compact sections, timeline, skills, contact.
+- Details: printable feel, high contrast, no oversized hero, no decorative background unless it adds clarity.
+- Avoid: trying to make sparse content look big through empty cards or huge typography.
 
 ## Academic Direction
 
