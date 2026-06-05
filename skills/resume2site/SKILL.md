@@ -22,9 +22,9 @@ Always write generated HTML, CSS, JSON, Markdown, and asset-credit files as UTF-
 5. If the resume appears to contain a portrait, follow `avatar-rules.md` and preserve it when extraction is reliable.
 6. Choose academic or landing mode using `mode-rules.md`.
 7. If the user did not already choose a style variant and requirements, pause and ask the Style Intake question below.
-8. Create `work/site-plan.md` using `prompts/plan-site.md`.
+8. Create `work/site-plan.md` using `prompts/plan-site.md`, `profile-schema.md`, and `information-architecture.md`.
 9. Apply privacy rules before deciding what becomes public.
-10. Apply the selected built-in style variant from `style-pack.md`. User screenshots are optional supplements, not required style research.
+10. Apply the selected built-in style variant from `style-pack.md` and `design-token-rules.md`. User screenshots are optional supplements, not required style research.
 11. Search for free/open/licensed visual assets when useful and when the agent has browsing/network capability.
 12. Generate `output/site/index.html`, `output/site/styles.css`, `output/site/README.md`, `output/site/.nojekyll`, and assets as needed.
 13. If assets are recommended or used, create `work/asset-recommendations.md` and `output/site/ASSET_CREDITS.md`.
@@ -101,11 +101,15 @@ Never copy raw resumes, private notes, hidden mappings, or internal extraction l
 ## Core References
 
 - `workflow.md`: complete sequence.
+- `profile-schema.md`: strict field, link, and metric scope contract.
+- `information-architecture.md`: content-priority and section-order rules.
 - `privacy-rules.md`: public/private data handling.
 - `content-rules.md`: factual language and rewriting.
 - `asset-rules.md`: free/open/licensed asset search, verification, and credits.
 - `avatar-rules.md`: portrait extraction priority and fallback rules.
 - `style-pack.md`: built-in academic and landing visual style guidance.
+- `design-token-rules.md`: typography, layout, color, radius, and anti-AI visual tokens.
+- `bad-smell-checklist.md`: final content, design, and asset smells to fix.
 - `quality-checklist.md`: final review criteria.
 
 ## Non-Negotiables

@@ -9,6 +9,9 @@ Use this prompt for academic mode.
 - `academic-layout-rules.md`.
 - `content-rules.md`.
 - `asset-rules.md`.
+- `profile-schema.md`.
+- `information-architecture.md`.
+- `design-token-rules.md`.
 - `templates/academic-profile/`.
 
 ## Create
@@ -47,6 +50,7 @@ Omit empty sections.
 - Include `<meta charset="utf-8">` and write generated files as UTF-8.
 - Do not show the selected style variant name in visible page text, page title, navigation, hero, headings, or footer. The variant name belongs in `work/site-plan.md` only.
 - Use strong readable typography and restrained spacing.
+- Use explicit design tokens for color, typography, spacing, radius, max width, and shadow intensity.
 - Format publications clearly.
 - Preserve and render arXiv, DOI, Google Scholar, GitHub, project page, dataset, and personal website links from `profile.json`.
 - Place paper links directly in publication entries and profile links in the sidebar, header, or contact area.
@@ -57,7 +61,9 @@ Omit empty sections.
 - Only create profile/sidebar metric cards from explicit person-level academic facts such as GPA, major rank, publication count, citation count, patent count, award count, or years of experience. If these facts are missing or sparse, use a clean profile layout without metric cards.
 - Use subtle visual assets or CSS patterns.
 - Keep the profile card clean and factual.
+- Do not expose generation-process notes in public copy. Never say the page was generated from a resume/DOCX/PDF, that data was omitted by privacy rules, or that metrics were kept in source sections.
 - Avoid fake metrics, commercial exaggeration, and generic AI gradients.
+- Run `bad-smell-checklist.md` before finalizing.
 
 ## Final Step
 

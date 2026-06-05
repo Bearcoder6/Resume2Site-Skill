@@ -37,6 +37,7 @@ Convert resume bullets into website-friendly writing:
 - Make landing-page content clear, specific, and personal-brand oriented.
 - Remove weak generic phrases such as "passionate developer", "hard-working student", "detail-oriented individual", and "enthusiastic learner".
 - Prefer concrete descriptions: problem solved, user role, method used, result achieved, research contribution, project outcome.
+- Public page copy must read like a normal personal website. Do not mention that the page was generated from a resume, DOCX, PDF, Markdown, this Skill, an agent workflow, extraction rules, privacy rules, metric-placement rules, or final-review checks.
 
 ## Project Entries
 

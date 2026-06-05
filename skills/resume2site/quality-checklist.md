@@ -13,6 +13,7 @@ This is a lightweight file-based checklist. Do not require browser automation, s
 - No project-local or experience-local numbers appear in hero stats, profile cards, sidebars, personal info, or global highlight cards.
 - No empty visible sections.
 - No raw resume hidden in HTML.
+- No public page copy mentions generation process, source file type, extraction workflow, privacy-rule decisions, or final-review/internal Skill notes.
 - No private files in `output/site/`.
 - No public phone number unless approved.
 - Resume portrait/avatar is preserved when present and extraction is reliable, or the failed extraction attempts are noted in `work/final-review.md`.
@@ -26,6 +27,7 @@ This is a lightweight file-based checklist. Do not require browser automation, s
 - `index.html`, `styles.css`, `.nojekyll`, and `README.md` exist.
 - `ASSET_CREDITS.md` exists if assets are used.
 - Design does not look like a raw resume.
+- Bad smells from `bad-smell-checklist.md` have been reviewed and fixed when present.
 - Language is polished but factual.
 - Page language matches the user's resume/request; English is not overused unless requested.
 - Typography scale is balanced across hero, section headings, cards, and desktop content areas.

@@ -7,6 +7,7 @@ Use this prompt to create `work/profile.json`.
 - User-provided resume PDF, DOCX, TXT, or Markdown.
 - Optional `avatar.png`, GitHub links, paper links, website links, and style preference files.
 - `avatar-rules.md`.
+- `profile-schema.md`.
 - Optional pasted summaries from the user.
 
 If PDF or DOCX reading is unreliable, ask the user for `resume.txt`.
@@ -59,6 +60,8 @@ Create `work/profile.json` using this shape:
 - Preserve numeric facts with their source scope. Numbers from project or experience bullets, such as latency, API count, test count, throughput, cost, benchmark, or optimization results, must remain inside that specific `projects[]` or `experience[]` entry.
 - Do not copy project-local or experience-local numbers into `person`, `contact`, headline, bio, or generic/global highlights.
 - Treat a number as person-level only when the resume explicitly presents it as identity, education, honor, publication, or career-level information, such as GPA, major rank, graduation year, publication count, citation count, patent count, award count, or years of experience.
+- When creating `metrics`, include `label`, `value`, `scope`, `source_section`, `belongs_to`, and `render_as_global`.
+- Set `render_as_global` to `true` only for person-level or clearly global education-level facts. Leave project, experience, paper, and award metrics local.
 - Preserve an existing portrait when reliable. If the user provides an avatar file or the resume includes a portrait image, save it into `output/site/assets/` when possible and set `person.avatar` to the relative path.
 - For DOCX resumes, inspect embedded images such as `word/media/*` before deciding that no portrait exists.
 - For PDF resumes, try embedded image extraction or first-page portrait crop fallback when available.

@@ -11,6 +11,7 @@ This Skill does not promise automatic local masking. The agent must make careful
 - If the user wants privacy, use placeholders in draft output.
 - Never include hidden raw resume text in HTML comments.
 - Never include internal notes, extraction logs, or mapping files in public output.
+- Never explain privacy decisions in public page copy, such as "phone omitted by privacy rule". Record those notes only in `work/final-review.md`.
 - Do not publish home addresses, private IDs, birth dates, or unrelated personal details.
 
 ## Recommended Privacy Workflow
